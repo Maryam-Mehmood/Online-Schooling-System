@@ -87,7 +87,7 @@
                      <div class="col-12">
                          <div class="bg-secondary rounded h-100 p-4">
                              <h2 class="mb-4 text-center">ACTIVITIES</h2>
-                             <a href="add.php" class="btn btn-primary mb-2">Add New</a>
+                             <a href="A-add.php" class="btn btn-primary mb-2">Add New</a>
                              <table class="table table-hover table-dark">
                                  <thead>
                                      <tr>
@@ -110,7 +110,7 @@
                                          <th scope="row"><?php echo $row[0];?></th>
                                          <td><?php echo $row[1];?></td>
                                          <td><?php echo $row[2];?></td>
-                                         <td><a href="edit.php?id=<?php echo $row[0]?>" class="btn btn-success">Edit</a></td>
+                                         <td><a href="A-edit.php?id=<?php echo $row[0]?>" class="btn btn-success">Edit</a></td>
                                          <td><a href="delete.php?id=<?php echo $row[0]?>" class="btn btn-danger">Delete</a></td>
                                      </tr>
                                      <?php
@@ -125,7 +125,7 @@
                      <div class="col-12">
                                 <div class="bg-secondary rounded h-100 p-4">
                                     <h2 class="mb-4 text-center">TEACHER INFO</h2>
-                                    <a href="add.php" class="btn btn-primary mb-2">Add New</a>
+                                    <a href="T-add.php" class="btn btn-primary mb-2">Add New</a>
                                     <table class="table table-hover table-dark">
                                         <thead>
                                             <tr>
@@ -154,7 +154,7 @@
                                                 <td><?php echo $row2[3];?></td>
                                                 <td><?php echo $row2[4];?></td>
                                                 <td><?php echo $row2[5];?></td>
-                                                <td><a href="edit.php?id2=<?php echo $row2[0]?>" class="btn btn-success">Edit</a></td>
+                                                <td><a href="T-edit.php?id=<?php echo $row2[0]?>" class="btn btn-success">Edit</a></td>
                                                 <td><a href="delete.php?id=<?php echo $row2[0]?>" class="btn btn-danger">Delete</a></td>
                                             </tr>
                                          <?php
@@ -169,7 +169,7 @@
                      <div class="col-12">
                                 <div class="bg-secondary rounded h-100 p-4">
                                     <h2 class="mb-4 text-center">STUDENT INFO</h2>
-                                    <a href="add.php" class="btn btn-primary mb-2">Add New</a>
+                                    <a href="S-add.php" class="btn btn-primary mb-2">Add New</a>
                                     <table class="table table-hover table-dark">
                                         <thead>
                                             <tr>
@@ -212,7 +212,7 @@
                                                 <td><?php echo $row3[10];?></td>
                                                 <td><?php echo $row3[11];?></td>
                                                 <td><?php echo $row3[12];?></td>
-                                                <td><a href="edit.php?id=<?php echo $row3[0]?>" class="btn btn-success">Edit</a></td>
+                                                <td><a href="S-edit.php?id=<?php echo $row3[0]?>" class="btn btn-success">Edit</a></td>
                                                 <td><a href="delete.php?id=<?php echo $row3[0]?>" class="btn btn-danger">Delete</a></td>
                                             </tr>
                                          <?php

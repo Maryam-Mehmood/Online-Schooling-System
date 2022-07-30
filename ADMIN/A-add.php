@@ -4,9 +4,9 @@
 ?>
 <!DOCTYPE html>
 <html lang="en">
- <head>
+ <head> 
      <meta charset="utf-8">
-     <title>Edit Form</title>
+     <title>Add New Form</title>
      <meta content="width=device-width, initial-scale=1.0" name="viewport">
      <meta content="" name="keywords">
      <meta content="" name="description">
@@ -37,44 +37,38 @@
      <!-- Template Stylesheet -->
      <link href="css/style.css" rel="stylesheet">
  </head> 
-<body class="bg-grey">
-      <!--PHP-->
-     <?php
-         $id = $_GET["id"];
-         $query = "SELECT * FROM `activities` WHERE `Id` = $id";
-         $result = mysqli_query($conn,$query);
-         if(mysqli_num_rows($result))
-           {
-             while($row = mysqli_fetch_array($result)){
-        ?>
+ <body>
      <div class="container">
-         <h1 class="text-center">Edit Form</h1>
-         <form action="#" method="post">
-         <div class="form-group">
-                 <label>Sports</label>
-                 <input type="text" class="form-control" name="sport" value="<?php echo $row[1];?>">
+         <h1 class="text-center">Insert New Activities</h1>
+         <div class="card mt-5">
+             <h3 class="card-header text-center">ACTIVITIES</h3>
+             <div class="card-body">
+                 <form action="#" method="post">
+                     <div class="form-group">
+                         <label>Sports</label>
+                         <input type="text" placeholder="Enter Sports" class="form-control" name="sport">
+                     </div>
+                     <div class="form-group">
+                         <label>Library</label>
+                         <input type="text" placeholder="Enter Library" class="form-control" name="lib">
+                     </div>
+                     <br>
+                     <div class="form-group">
+                         <input type="Submit" class="btn btn-success" name="submit" value="Add New">
+                     </div>
+                 </form>
              </div>
-             <div class="form-group">
-                 <label>Library</label>
-                 <input type="text" class="form-control" name="lib" value="<?php echo $row[2];?>">
-             </div>
-             <br>
-             <div class="form-group">
-                 <input type="Submit" class="btn btn-success" name="submit">
-             </div>
-         </form>
+         </div>
      </div>
-     <?php
-         }
-         }
-         if(isset($_POST["submit"]))
-         {
-             $Sport = $_POST["sport"];
-             $Libraray = $_POST["lib"];
-             $query = " UPDATE `activities` SET `Sports` = '$Sport',`Library` = '$Libraray' WHERE `Id` = $id";
-             mysqli_query($conn,$query);
-             header("Location:table.php");
-         }
-        ?>
  </body>
 </html>
+<?php
+ if(isset($_POST["submit"]))
+   {
+     $Sport = $_POST["sport"];
+     $Library = $_POST["lib"];
+     $query = "INSERT INTO `activities`(`Sports`, `Library`) VALUES ('$Sport','$Library')";
+     mysqli_query($conn,$query);
+     header("Location:table.php");
+    }
+?>
