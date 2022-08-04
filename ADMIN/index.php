@@ -1,3 +1,7 @@
+<?php
+ session_start();
+ $conn = mysqli_connect("Localhost","root","","online_schooling_system");
+?>
 <!DOCTYPE html>
 <html lang="en">
  <head>
@@ -77,43 +81,49 @@
 
              <!-- Sale & Revenue Start -->
              <div class="container-fluid pt-4 px-4">
-                <div class="row g-4">
-                    <div class="col-sm-6 col-xl-3">
-                        <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
-                            <i class="fa fa-chart-line fa-3x text-primary"></i>
-                            <div class="ms-3">
-                                <p class="mb-2">Today Sale</p>
-                                <h6 class="mb-0">$1234</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-xl-3">
-                        <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
-                            <i class="fa fa-chart-bar fa-3x text-primary"></i>
-                            <div class="ms-3">
-                                <p class="mb-2">Total Sale</p>
-                                <h6 class="mb-0">$1234</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-xl-3">
-                        <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
-                            <i class="fa fa-chart-area fa-3x text-primary"></i>
-                            <div class="ms-3">
-                                <p class="mb-2">Today Revenue</p>
-                                <h6 class="mb-0">$1234</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-xl-3">
-                        <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
-                            <i class="fa fa-chart-pie fa-3x text-primary"></i>
-                            <div class="ms-3">
-                                <p class="mb-2">Total Revenue</p>
-                                <h6 class="mb-0">$1234</h6>
-                            </div>
-                        </div>
-                    </div>
+                 <div class="row g-4">
+                     <div class="col-md-6">
+                         <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
+                             <i class="fa fa-chart-line fa-3x text-primary"></i>
+                             <div class="ms-3">
+                                 <p class="mb-2">Teacher</p>
+                                 <h6 class="mb-0">
+                                 <?php
+                                     $query = "SELECT COUNT(id) from `teacher`";
+                                     $result =  mysqli_query($conn,$query);
+                                     if (mysqli_num_rows($result)) 
+                                       {
+                                         while ($row = mysqli_fetch_array($result)) 
+                                           {
+                                             echo $row[0];
+                                            }
+                                        }
+                                    ?>
+                                 </h6>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="col-md-6">
+                         <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
+                             <i class="fa fa-chart-bar fa-3x text-primary"></i>
+                             <div class="ms-3">
+                                 <p class="mb-2">Student</p>
+                                 <h6 class="mb-0">
+                                 <?php
+                                     $query = "SELECT COUNT(id) from `student`";
+                                     $result =  mysqli_query($conn,$query);
+                                     if (mysqli_num_rows($result)) 
+                                       {
+                                         while ($row = mysqli_fetch_array($result)) 
+                                           {
+                                             echo $row[0];
+                                            }
+                                        }
+                                    ?>
+                                 </h6>
+                             </div>
+                         </div>
+                     </div>
                 </div>
              </div>
              <!-- Sale & Revenue End -->
