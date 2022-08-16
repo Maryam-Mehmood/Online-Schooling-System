@@ -28,6 +28,8 @@
      <link rel="stylesheet" href="css/responsive.css">
      <!-- Custom CSS -->
      <link rel="stylesheet" href="css/custom.css">
+     <!-- Fontawesome CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
 
      <!-- Modernizer for Portfolio -->
      <script src="js/modernizer.js"></script>
@@ -66,11 +68,12 @@
 				     <ul class="navbar-nav ml-auto">
 					     <li class="nav-item active"><a class="nav-link" href="index.php">Home</a></li>
 						 <li class="nav-item"><a class="nav-link" href="about.php">About Us</a></li>
+						 <li class="nav-item"><a class="nav-link" href="class.php">Classes</a></li>
 						 <li class="nav-item"><a class="nav-link" href="teachers.php">Teachers</a></li>
 						 <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
 					 </ul>
 					 <ul class="nav navbar-nav navbar-right">
-                         <li><a class="hover-btn-new log orange" href="#" data-toggle="modal" data-target="#login"><span>Get Admission</span></a></li>
+                         <li><a class="hover-btn-new log orange" href="admission.php"><span>Get Admission</span></a></li>
                      </ul>
 				 </div>
 			 </div>

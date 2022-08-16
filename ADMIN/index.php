@@ -124,6 +124,51 @@
                              </div>
                          </div>
                      </div>
+                 </div>
+                 <br>
+                 <div class="row g-4">
+                     <div class="col-md-6">
+                         <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
+                             <i class="fa fa-chart-line fa-3x text-primary"></i>
+                             <div class="ms-3">
+                                 <p class="mb-2">Holidays</p>
+                                 <h6 class="mb-0">
+                                 <?php
+                                     $query = "SELECT COUNT(id) from `holiday`";
+                                     $result =  mysqli_query($conn,$query);
+                                     if (mysqli_num_rows($result)) 
+                                       {
+                                         while ($row = mysqli_fetch_array($result)) 
+                                           {
+                                             echo $row[0];
+                                            }
+                                        }
+                                    ?>
+                                 </h6>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="col-md-6">
+                         <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
+                             <i class="fa fa-chart-bar fa-3x text-primary"></i>
+                             <div class="ms-3">
+                                 <p class="mb-2">Student</p>
+                                 <h6 class="mb-0">
+                                 <?php
+                                     $query = "SELECT COUNT(id) from `student`";
+                                     $result =  mysqli_query($conn,$query);
+                                     if (mysqli_num_rows($result)) 
+                                       {
+                                         while ($row = mysqli_fetch_array($result)) 
+                                           {
+                                             echo $row[0];
+                                            }
+                                        }
+                                    ?>
+                                 </h6>
+                             </div>
+                         </div>
+                     </div>
                 </div>
              </div>
              <!-- Sale & Revenue End -->

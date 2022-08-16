@@ -45,16 +45,20 @@
              <div class="card-body">
                  <form action="#" method="post">
                      <div class="form-group">
-                         <label>Holiday</label>
-                         <input type="text" placeholder="Enter Holiday" class="form-control" name="hol">
+                         <label>Day</label>
+                         <input type="text" placeholder="Enter Holiday Day" class="form-control" name="day">
                      </div>
                      <div class="form-group">
                          <label>Date</label>
                          <input type="date" placeholder="Enter Holiday Date" class="form-control" name="date">
                      </div>
                      <div class="form-group">
-                         <label>Day</label>
-                         <input type="text" placeholder="Enter Holiday Day" class="form-control" name="day">
+                         <label>Holiday Name</label>
+                         <input type="text" placeholder="Enter Holiday Name" class="form-control" name="hol">
+                     </div>
+                     <div class="form-group">
+                         <label>Details</label>
+                         <input type="text" placeholder="Enter Event Details" class="form-control" name="del">
                      </div>
                      <br>
                      <div class="form-group">
@@ -69,10 +73,11 @@
 <?php
  if(isset($_POST["submit"]))
    {
-     $Holiday = $_POST["hol"];
-     $Date = $_POST["date"];
      $Day = $_POST["day"];
-     $query = "INSERT INTO `holiday`(`Holiday`, `Date`, `Day`) VALUES ('$Holiday','$Date','$Day')";
+     $Date = $_POST["date"];
+     $Holiday = $_POST["hol"];
+     $Details = $_POST["del"];
+     $query = "INSERT INTO `holiday`(`Day`, `Date`, `Holiday`, `Detail`) VALUES ('$Day','$Date','$Holiday','$Details')";
      mysqli_query($conn,$query);
 ?>
 <Script>

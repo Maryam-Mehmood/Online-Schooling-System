@@ -83,59 +83,7 @@
              <!-- Form Start -->
              <div class="container-fluid pt-4 px-4">
                  <div class="row g-4">
-                     <!--ADMISSION FORM-->
-                     <div class="col-sm-12 col-xl-6">
-                         <div class="bg-secondary rounded h-100 p-4">
-                             <h4 class="mb-4 text-center">ADMISSION FORM</h4>
-                             <form action="#" method="post">
-                                 <div class="mb-3">
-                                     <label class="form-label">Student Name</label>
-                                     <input type="text" class="form-control" name="name">
-                                 </div>
-                                 <div class="mb-3">
-                                     <label class="form-label">Father Name</label>
-                                     <input type="text" class="form-control" name="fname">
-                                 </div>
-                                 <div class="mb-3">
-                                     <label class="form-label">Mother Name</label>
-                                     <input type="text" class="form-control" name="mname">
-                                 </div>
-                                 <div class="mb-3">
-                                     <label class="form-label">Date of Birth</label>
-                                     <input type="date" class="form-control" name="dob">
-                                 </div>
-                                 <div class="mb-3">
-                                     <label class="form-label">Email</label>
-                                     <input type="email" class="form-control" name="email">
-                                 </div>
-                                 <div class="mb-3">
-                                     <label class="form-label">Phone No.</label>
-                                     <input type="text" class="form-control" name="phone">
-                                 </div>
-                                 <div class="mb-3">
-                                     <label class="form-label">Address</label>
-                                     <input type="text" class="form-control" name="add">
-                                 </div>
-                                 <div class="mb-3">
-                                     <label class="form-label">Nationality</label>
-                                     <input type="text" class="form-control" name="nat">
-                                 </div>
-                                 <div class="mb-3">
-                                     <label class="form-label">Religion</label>
-                                     <input type="text" class="form-control" name="rel">
-                                 </div>
-                                 <div class="mb-3">
-                                     <label class="form-label">In which Class Admission sought?</label>
-                                     <input type="text" class="form-control" name="class" placeholder="In which class child want to take admission?">
-                                 </div>
-                                 <div class="mb-3">
-                                     <label class="form-label">Admission Date</label>
-                                     <input type="date" class="form-control" name="date">
-                                 </div>
-                                 <button type="submit" class="btn btn-primary" name="submit">Submit Admission Form</button>
-                             </form>
-                         </div>
-                     </div>  
+                    
                      <!--VOUCHER FORM-->
                      <div class="col-sm-12 col-xl-6">
                          <div class="bg-secondary rounded h-100 p-4">
@@ -166,27 +114,6 @@
                                      <input type="text" class="form-control" name="word">
                                  </div>
                                  <button type="submit" class="btn btn-primary" name="submit-2">Submit Fees Voucher</button>
-                             </form>
-                         </div>
-                     </div>
-                      <!--CONTACT FORM-->
-                     <div class="col-sm-12 col-xl-6">
-                         <div class="bg-secondary rounded h-100 p-4">
-                             <h4 class="mb-4 text-center">CONTACT FORM</h4>
-                             <form>
-                                 <div Class="mb-3">
-                                     <label class="form-label">Full Name</label>
-                                     <input type="text" class="form-control" placeholder="Enter Your Full Name" name="name">
-                                 </div>
-                                 <div class="mb-3">
-                                     <label class="form-label">Email address</label>
-                                     <input type="email" class="form-control" placeholder="example@gmail.com" name="email">
-                                 </div>
-                                 <div class="mb-3">
-                                     <label class="form-label">Message</label>
-                                     <input type="text" class="form-control" name="msg">
-                                 </div>
-                                 <button type="submit" class="btn btn-primary" name="submit">Submit Contact Form</button>
                              </form>
                          </div>
                      </div>
@@ -234,28 +161,6 @@
 
 </html>
 <?php
- if(isset($_POST["submit"]))
-   {
-     $Name = $_POST["name"];
-     $Fname = $_POST["fname"];
-     $Mname = $_POST["mname"];
-     $Dob = $_POST["dob"];
-     $Email = $_POST["email"];
-     $Phone = $_POST["phone"];
-     $Add = $_POST["add"];
-     $Nat = $_POST["nat"];
-     $Rel = $_POST["rel"];
-     $Class = $_POST["class"];
-     $Date = $_POST["date"];
-                               
-     $query = "INSERT INTO `student`(`Id`, `First_Name`, `Father_Name`, `Mother_Name`, `Date_of_Birth`, `Email`, `Phone`, `Address`, `Nationality`, `Religion`, `Class`, `Date`, `Report_Card`) VALUES (Null,'$Name','$Fname','$Mname','$Dob','$Email','$Phone','$Add','$Nat','$Rel','$Class','$Date')";
-     $result = mysqli_query($conn,$query);
-     ?>
-     <Script>
-         window.location.assign("table.php");
-     </Script>
-     <?php
-    }
 
  if(isset($_POST["submit-2"]))
    {

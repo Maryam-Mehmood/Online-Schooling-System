@@ -53,12 +53,12 @@
               <div class="card-body">
                  <form action="#" method="post">
                      <div class="form-group">
-                         <label>Sports</label>
-                         <input type="text" class="form-control" name="sport" value="<?php echo $row[1];?>">
+                         <label>Activity</label>
+                         <input type="text" class="form-control" name="act" value="<?php echo $row[1];?>">
                      </div>
                      <div class="form-group">
-                         <label>Library</label>
-                         <input type="text" class="form-control" name="lib" value="<?php echo $row[2];?>">
+                         <label>Pic</label>
+                         <input type="text" class="form-control" name="pic" value="<?php echo $row[2];?>">
                      </div>
                      <br>
                      <div class="form-group">
@@ -72,9 +72,9 @@
              }
              if(isset($_POST["submit"]))
                {
-                 $Sport = $_POST["sport"];
-                 $Libraray = $_POST["lib"];
-                 $query = " UPDATE `activities` SET `Sports` = '$Sport',`Library` = '$Libraray' WHERE `Id` = $id";
+                 $Activity = $_POST["act"];
+                 $Pic = $_POST["pic"];
+                 $query = " UPDATE `activities` SET `Activity` = '$Activity',`Pic` = '$Pic' WHERE `Id` = $id";
                  mysqli_query($conn,$query);
                  header("Location:table.php");
                 }

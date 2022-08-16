@@ -92,8 +92,8 @@
                                  <thead>
                                      <tr>
                                          <th scope="col">#</th>
-                                         <th scope="col">Sports</th>
-                                         <th scope="col">Library</th>
+                                         <th scope="col">Activity</th>
+                                         <th scope="col">Picture</th>
                                          <th scope="col">Edit</th>
                                          <th scope="col">Delete</th>
                                      </tr>
@@ -233,9 +233,10 @@
                                  <thead>
                                      <tr>
                                          <th scope="col">#</th>
-                                         <th scope="col">Holiday</th>
-                                         <th scope="col">Date</th>
                                          <th scope="col">Day</th>
+                                         <th scope="col">Date</th>
+                                         <th scope="col">Holiday Name</th>
+                                         <th scope="col">Detail</th>
                                          <th scope="col">Edit</th>
                                          <th scope="col">Delete</th>
                                      </tr>
@@ -253,8 +254,46 @@
                                          <td><?php echo $row[1];?></td>
                                          <td><?php echo $row[2];?></td>
                                          <td><?php echo $row[3];?></td>
+                                         <td><?php echo $row[4];?></td>
                                          <td><a href="H-edit.php?id=<?php echo $row[0]?>" class="btn btn-success">Edit</a></td>
                                          <td><a href="delete.php?id=<?php echo $row[0]?>" class="btn btn-danger">Delete</a></td>
+                                     </tr>
+                                     <?php
+                                           }
+                                           }
+                                     ?>
+                                 </tbody>
+                             </table>
+                         </div>
+                     </div>
+                     <!--CONTACT-->
+                     <div class="col-12">
+                         <div class="bg-secondary rounded h-100 p-4">
+                             <h2 class="mb-4 text-center">Contact Forms</h2>
+                             <table class="table table-hover table-dark">
+                                 <thead>
+                                     <tr>
+                                         <th scope="col">#</th>
+                                         <th scope="col">Full Name</th>
+                                         <th scope="col">Email</th>
+                                         <th scope="col">Phone No.</th>
+                                         <th scope="col">Message</th>
+                                     </tr>
+                                 </thead>
+                                 <tbody>
+                                     <?php
+                                         $query = "SELECT * FROM `contact`";
+                                         $result = mysqli_query($conn,$query);
+                                         if(mysqli_num_rows($result))
+                                           {
+                                             while($row = mysqli_fetch_array($result)){                                              
+                                        ?>     
+                                     <tr>
+                                         <th scope="row"><?php echo $row[0];?></th>
+                                         <td><?php echo $row[1];?></td>
+                                         <td><?php echo $row[2];?></td>
+                                         <td><?php echo $row[3];?></td>
+                                         <td><?php echo $row[4];?></td>
                                      </tr>
                                      <?php
                                            }

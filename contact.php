@@ -1,3 +1,7 @@
+<?php
+ session_start();
+ $conn = mysqli_connect("Localhost","root","","online_schooling_system");
+?>
 <!DOCTYPE html>
 <html lang="en">
  <head>
@@ -60,25 +64,26 @@
                  <div class="col-xl-6 col-md-12 col-sm-12">
                      <div class="contact_form">
                          <div id="message"></div>
-                         <form id="contactform" class="" action="contact.php" name="contactform" method="post">
+                         <form action="#" method="post">
                              <div class="row row-fluid">
-                                 <div class="col-lg-6 col-md-6 col-sm-6">
-                                     <input type="text" name="first_name" id="first_name" class="form-control" placeholder="First Name">
+                                 <div class="col-lg-12 col-md-12 col-sm-12">
+                                     <h3 class="text-white">Name</h3>
+                                     <input type="text" name="name" class="form-control" placeholder="Enter Your Full Name" required>
                                  </div>
                                  <div class="col-lg-6 col-md-6 col-sm-6">
-                                     <input type="text" name="last_name" id="last_name" class="form-control" placeholder="Last Name">
+                                     <h3 class="text-white">Email</h3>
+                                     <input type="email" name="email" class="form-control" placeholder="Enter Your Email" required>
                                  </div>
                                  <div class="col-lg-6 col-md-6 col-sm-6">
-                                     <input type="email" name="email" id="email" class="form-control" placeholder="Your Email">
-                                 </div>
-                                 <div class="col-lg-6 col-md-6 col-sm-6">
-                                     <input type="text" name="phone" id="phone" class="form-control" placeholder="Your Phone">
+                                     <h3 class="text-white">Phone No.</h3>
+                                     <input type="text" name="phone"  class="form-control" placeholder=" Enter Your Phone No." required>
                                  </div>
                                  <div class="col-lg-12 col-md-12 col-sm-12">
-                                     <textarea class="form-control" name="comments" id="comments" rows="6" placeholder="Give us more details.."></textarea>
+                                     <h3 class="text-white">Message</h3>
+                                     <textarea class="form-control" name="msg" rows="6" placeholder="Your Complaint/Message/Feedback.." required></textarea>
                                  </div>
                                  <div class="text-center pd">
-                                     <button type="submit" value="SEND" id="submit" class="btn btn-light btn-radius btn-brd grd1 btn-block">Get a Quote</button>
+                                     <button type="submit" value="SEND" class="btn btn-light btn-radius btn-brd grd1 btn-block" name="submit">Send Request</button>
                                  </div>
                              </div>
                          </form>
@@ -116,3 +121,21 @@
 
 </body>
 </html>
+
+<?php
+ if(isset($_POST["submit"]))
+ {
+   $Name = $_POST["name"];
+   $Email = $_POST["email"];
+   $Phone = $_POST["phone"];
+   $Message = $_POST["msg"];
+                             
+   $query = "INSERT INTO `contact`(`Full_Name`, `Email`, `Phone`, `Message`) VALUES ('$Name','$Email','$Phone','$Message')";
+   $result = mysqli_query($conn,$query);
+   ?>
+   <Script>
+       window.location.assign("index.php");
+   </Script>
+   <?php
+  }
+?>

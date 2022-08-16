@@ -1,3 +1,7 @@
+<?php
+ session_start();
+ $conn = mysqli_connect("Localhost","root","","online_schooling_system");
+?>
 <!DOCTYPE html>
 <html lang="en">
  <head>
@@ -32,6 +36,9 @@
      <!-- Modernizer for Portfolio -->
      <script src="js/modernizer.js"></script>
 
+     <!-- Font Awesome -->
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
      <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -61,9 +68,9 @@
 								     <div class="big-tagline">
 									     <h2><strong>SmartEDU </strong> education College</h2>
 										 <p class="lead">With Landigoo responsive landing page template, you can promote your all hosting, domain and email services. </p>
-										 <a href="#" class="hover-btn-new"><span>Contact Us</span></a>
+										 <a href="contact.php" class="hover-btn-new"><span>Contact Us</span></a>
 										 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-										 <a href="#" class="hover-btn-new"><span>Read More</span></a>
+										 <a href="about.php" class="hover-btn-new"><span>Read More</span></a>
 									 </div>
 								 </div>
 							 </div><!-- end row -->            
@@ -132,20 +139,56 @@
 		     <div class="row text-left stat-wrap">
 			     <div class="col-md-4 col-sm-4 col-xs-12">
 				     <span data-scroll class="global-radius icon_wrap effect-1 alignleft"><i class="flaticon-study"></i></span>
-					 <p class="stat_count">12000</p>
+					 <p class="stat_count">
+                         <?php
+                             $query = "SELECT COUNT(id) from `student`";
+                             $result =  mysqli_query($conn,$query);
+                             if (mysqli_num_rows($result)) 
+                               {
+                                 while ($row = mysqli_fetch_array($result)) 
+                                   {
+                                     echo $row[0];
+                                    }
+                                }
+                            ?>
+                     </p>
 					 <h3>Students</h3>
 				 </div><!-- end col -->
 
 				 <div class="col-md-4 col-sm-4 col-xs-12">
 				     <span data-scroll class="global-radius icon_wrap effect-1 alignleft"><i class="flaticon-online"></i></span>
-					 <p class="stat_count">240</p>
+					 <p class="stat_count">
+                         <?php
+                             $query = "SELECT COUNT(id) from `teacher`";
+                             $result =  mysqli_query($conn,$query);
+                             if (mysqli_num_rows($result)) 
+                               {
+                                 while ($row = mysqli_fetch_array($result)) 
+                                   {
+                                     echo $row[0];
+                                    }
+                                }
+                            ?>
+                     </p>
 					 <h3>Teachers</h3>
 				 </div><!-- end col -->
 
 				 <div class="col-md-4 col-sm-4 col-xs-12">
 				     <span data-scroll class="global-radius icon_wrap effect-1 alignleft"><i class="flaticon-years"></i></span>
-					 <p class="stat_count">55</p>
-					 <h3>Years Completed</h3>
+					 <p class="stat_count">
+                         <?php
+                             $query = "SELECT COUNT(id) from `holiday`";
+                             $result =  mysqli_query($conn,$query);
+                             if (mysqli_num_rows($result)) 
+                               {
+                                 while ($row = mysqli_fetch_array($result)) 
+                                   {
+                                     echo $row[0];
+                                    }
+                                }
+                            ?>
+                     </p>
+					 <h3>Holidays</h3>
 				 </div><!-- end col -->
 			 </div><!-- end row -->
 		 </div><!-- end container -->
@@ -154,20 +197,9 @@
      <div id="plan" class="section lb">
          <div class="container">
              <div class="section-title text-center">
-                 <h3>Choose Your Plan</h3>
+                 <h3>Holidays Schedule</h3>
                  <p>Lorem ipsum dolor sit aet, consectetur adipisicing lit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
              </div><!-- end title -->
-
-             <div class="row">
-                 <div class="col-md-6 offset-md-3">
-                     <div class="message-box">
-                         <ul class="nav nav-pills nav-stacked" id="myTabs">
-                             <li><a class="active" href="#tab1" data-toggle="pill">Monthly Subscription</a></li>
-                             <li><a href="#tab2" data-toggle="pill">Yearly Subscription</a></li>
-                         </ul>
-                     </div>
-                 </div><!-- end col -->
-             </div>
 
              <hr class="invis">
 
@@ -176,123 +208,41 @@
                      <div class="tab-content">
                          <div class="tab-pane active fade show" id="tab1">
                              <div class="row text-center">
-                                 <div class="col-md-4">
+                                 <div class="col-md-12">
                                      <div class="pricing-table pricing-table-highlighted">
                                          <div class="pricing-table-header grd1">
-                                             <h2>$45</h2>
-                                             <h3>per month</h3>
+                                             <h2>Holidays Schedule</h2>
                                          </div>
                                          <div class="pricing-table-space"></div>
-                                         <div class="pricing-table-features">
-                                             <p><i class="fa fa-envelope-o"></i> <strong>250</strong> Email Addresses</p>
-                                             <p><i class="fa fa-rocket"></i> <strong>125GB</strong> of Storage</p>
-                                             <p><i class="fa fa-database"></i> <strong>140</strong> Databases</p>
-                                             <p><i class="fa fa-link"></i> <strong>60</strong> Domains</p>
-                                             <p><i class="fa fa-life-ring"></i> <strong>24/7 Unlimited</strong> Support</p>
-                                         </div>
-                                         <div class="pricing-table-sign-up">
-                                             <a href="#" class="hover-btn-new orange"><span>Order Now</span></a>
-                                         </div>
-                                     </div>
-                                 </div>
-                                 <div class="col-md-4">
-                                     <div class="pricing-table pricing-table-highlighted">
-                                         <div class="pricing-table-header grd1">
-                                             <h2>$59</h2>
-                                             <h3>per month</h3>
-                                         </div>
-                                         <div class="pricing-table-space"></div>
-                                         <div class="pricing-table-features">
-                                             <p><i class="fa fa-envelope-o"></i> <strong>150</strong> Email Addresses</p>
-                                             <p><i class="fa fa-rocket"></i> <strong>65GB</strong> of Storage</p>
-                                             <p><i class="fa fa-database"></i> <strong>60</strong> Databases</p>
-                                             <p><i class="fa fa-link"></i> <strong>30</strong> Domains</p>
-                                             <p><i class="fa fa-life-ring"></i> <strong>24/7 Unlimited</strong> Support</p>
-                                         </div>
-                                         <div class="pricing-table-sign-up">
-                                             <a href="#" class="hover-btn-new orange"><span>Order Now</span></a>
-                                         </div>
-                                     </div>
-                                 </div>
-                                 <div class="col-md-4">
-                                     <div class="pricing-table pricing-table-highlighted">
-                                         <div class="pricing-table-header grd1">
-                                             <h2>$85</h2>
-                                             <h3>per month</h3>
-                                         </div>
-                                         <div class="pricing-table-space"></div>
-                                         <div class="pricing-table-features">
-                                             <p><i class="fa fa-envelope-o"></i> <strong>250</strong> Email Addresses</p>
-                                             <p><i class="fa fa-rocket"></i> <strong>125GB</strong> of Storage</p>
-                                             <p><i class="fa fa-database"></i> <strong>140</strong> Databases</p>
-                                             <p><i class="fa fa-link"></i> <strong>60</strong> Domains</p>
-                                             <p><i class="fa fa-life-ring"></i> <strong>24/7 Unlimited</strong> Support</p>
-                                         </div>
-                                         <div class="pricing-table-sign-up">
-                                             <a href="#" class="hover-btn-new orange"><span>Order Now</span></a>
-                                         </div>
-                                     </div>
-                                 </div>
-                             </div><!-- end row -->
-                         </div><!-- end pane -->
-
-                         <div class="tab-pane fade" id="tab2">
-                             <div class="row text-center">
-                                 <div class="col-md-4">
-                                     <div class="pricing-table pricing-table-highlighted">
-                                         <div class="pricing-table-header grd1">
-                                             <h2>$477</h2>
-                                             <h3>Year</h3>
-                                         </div>
-                                         <div class="pricing-table-space"></div>
-                                         <div class="pricing-table-features">
-                                             <p><i class="fa fa-envelope-o"></i> <strong>250</strong> Email Addresses</p>
-                                             <p><i class="fa fa-rocket"></i> <strong>125GB</strong> of Storage</p>
-                                             <p><i class="fa fa-database"></i> <strong>140</strong> Databases</p>
-                                             <p><i class="fa fa-link"></i> <strong>60</strong> Domains</p>
-                                             <p><i class="fa fa-life-ring"></i> <strong>24/7 Unlimited</strong> Support</p>
-                                         </div>
-                                         <div class="pricing-table-sign-up">
-                                             <a href="#" class="hover-btn-new orange"><span>Order Now</span></a>
-                                         </div>
-                                     </div>
-                                 </div>
-                                 <div class="col-md-4">
-                                     <div class="pricing-table pricing-table-highlighted">
-                                         <div class="pricing-table-header grd1">
-                                             <h2>$485</h2>
-                                             <h3>Year</h3>
-                                         </div>
-                                         <div class="pricing-table-space"></div>
-                                         <div class="pricing-table-features">
-                                             <p><i class="fa fa-envelope-o"></i> <strong>150</strong> Email Addresses</p>
-                                             <p><i class="fa fa-rocket"></i> <strong>65GB</strong> of Storage</p>
-                                             <p><i class="fa fa-database"></i> <strong>60</strong> Databases</p>
-                                             <p><i class="fa fa-link"></i> <strong>30</strong> Domains</p>
-                                             <p><i class="fa fa-life-ring"></i> <strong>24/7 Unlimited</strong> Support</p>
-                                         </div>
-                                         <div class="pricing-table-sign-up">
-                                             <a href="#" class="hover-btn-new orange"><span>Order Now</span></a>
-                                         </div>
-                                     </div>
-                                 </div>
-                                 <div class="col-md-4">
-                                     <div class="pricing-table pricing-table-highlighted">
-                                         <div class="pricing-table-header grd1">
-                                             <h2>$500</h2>
-                                             <h3>Year</h3>
-                                         </div>
-                                         <div class="pricing-table-space"></div>
-                                         <div class="pricing-table-features">
-                                             <p><i class="fa fa-envelope-o"></i> <strong>250</strong> Email Addresses</p>
-                                             <p><i class="fa fa-rocket"></i> <strong>125GB</strong> of Storage</p>
-                                             <p><i class="fa fa-database"></i> <strong>140</strong> Databases</p>
-                                             <p><i class="fa fa-link"></i> <strong>60</strong> Domains</p>
-                                             <p><i class="fa fa-life-ring"></i> <strong>24/7 Unlimited</strong> Support</p>
-                                         </div>
-                                         <div class="pricing-table-sign-up">
-                                             <a href="#" class="hover-btn-new orange"><span>Order Now</span></a>
-                                         </div>
+                                         <table class="table table-hover">
+                                             <thead>
+                                                 <tr>
+                                                     <th scope="col">Day</th>
+                                                     <th scope="col">Date</th>
+                                                     <th scope="col">Holiday Name</th>
+                                                     <th scope="col">Detail</th>        
+                                                 </tr>
+                                             </thead>
+                                             <tbody>
+                                                 <?php
+                                                     $query = "SELECT * FROM `holiday`";
+                                                     $result = mysqli_query($conn,$query);
+                                                     if(mysqli_num_rows($result))
+                                                       {
+                                                         while($row = mysqli_fetch_array($result)){                                              
+                                                    ?>     
+                                                 <tr>
+                                                     <td><?php echo $row[1];?></td>
+                                                     <td><?php echo $row[2];?></td>
+                                                     <td><?php echo $row[3];?></td>
+                                                     <td><?php echo $row[4];?></td>
+                                                 </tr>
+                                                 <?php
+                                                     }
+                                                     }
+                                                    ?>
+                                             </tbody>
+                                         </table>
                                      </div>
                                  </div>
                              </div><!-- end row -->
@@ -303,62 +253,71 @@
          </div><!-- end container -->
      </div><!-- end section -->
 
-     <div id="testimonials" class="parallax section db parallax-off" style="background-image:url('images/parallax_04.jpg');">
-         <div class="container">
-             <div class="section-title text-center">
-                 <h3>Testimonials</h3>
-                 <p>Lorem ipsum dolor sit aet, consectetur adipisicing lit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-             </div><!-- end title -->
- 
-             <div class="row">
-                 <div class="col-md-12 col-sm-12">
-                     <div class="testi-carousel owl-carousel owl-theme">
-                         <div class="testimonial clearfix">
-	    				     <div class="testi-meta">
-                                 <img src="images/testi_01.png" alt="" class="img-fluid">
-                                 <h4>James Fernando </h4>
-                             </div>
-                             <div class="desc">
-                                 <h3><i class="fa fa-quote-left"></i> Wonderful Support!</h3>
-                                 <p class="lead">They have got my project on time with the competition with a sed highly skilled, and experienced & professional team.</p>
-                             </div>
-                             <!-- end testi-meta -->
-                         </div>
-                         <!-- end testimonial -->
-
-                         <div class="testimonial clearfix">
-						     <div class="testi-meta">
-                                 <img src="images/testi_02.png" alt="" class="img-fluid">
-                                 <h4>Jacques Philips </h4>
-                             </div>
-                             <div class="desc">
-                                 <h3><i class="fa fa-quote-left"></i> Awesome Services!</h3>
-                                 <p class="lead">Explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you completed.</p>
-                             </div>
-                             <!-- end testi-meta -->
-                         </div>
-                         <!-- end testimonial -->
-
-                         <div class="testimonial clearfix">
-						     <div class="testi-meta">
-                                 <img src="images/testi_03.png" alt="" class="img-fluid ">
-                                 <h4>Venanda Mercy </h4>
-                             </div>
-                             <div class="desc">
-                                 <h3><i class="fa fa-quote-left"></i> Great & Talented Team!</h3>
-                                 <p class="lead">The master-builder of human happines no one rejects, dislikes avoids pleasure itself, because it is very pursue pleasure. </p>
-                             </div>
-                             <!-- end testi-meta -->
-                         </div>
-                         <!-- end testimonial -->
-                     </div><!-- end carousel -->
-                 </div><!-- end col -->
-             </div><!-- end row -->
-         </div><!-- end container -->
-     </div><!-- end section -->
-
+     <!-- Activities Start -->
      <div class="parallax section dbcolor">
          <div class="container">
+             <!-- Facilities Start -->
+             <div class="container-fluid pt-5">
+                 <div class="container pb-3">
+                     <div class="row">
+                         <div class="col-lg-4 col-md-6 pb-1">
+                             <div class="d-flex bg-light shadow-sm border-top rounded mb-4" style="padding: 30px;">
+                                 <i class="flaticon-050-fence h1 font-weight-normal text-primary mb-3"></i>
+                                 <div class="pl-4">
+                                     <h4>Sports</h4>
+                                     <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+                                 </div>
+                             </div>
+                         </div>
+                         <div class="col-lg-4 col-md-6 pb-1">
+                             <div class="d-flex bg-light shadow-sm border-top rounded mb-4" style="padding: 30px;">
+                                 <i class="flaticon-022-drum h1 font-weight-normal text-primary mb-3"></i>
+                                 <div class="pl-4">
+                                     <h4>Library</h4>
+                                     <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+                                 </div>
+                             </div>
+                         </div>
+                         <div class="col-lg-4 col-md-6 pb-1">
+                             <div class="d-flex bg-light shadow-sm border-top rounded mb-4" style="padding: 30px;">
+                                 <i class="flaticon-030-crayons h1 font-weight-normal text-primary mb-3"></i>
+                                 <div class="pl-4">
+                                     <h4>Arts and Crafts</h4>
+                                     <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+                                 </div>
+                             </div>
+                         </div>
+                         <!-- <div class="col-lg-4 col-md-6 pb-1">
+                         <div class="d-flex bg-light shadow-sm border-top rounded mb-4" style="padding: 30px;">
+                         <i class="flaticon-017-toy-car h1 font-weight-normal text-primary mb-3"></i>
+                         <div class="pl-4">
+                         <h4>Safe Transportation</h4>
+                         <p class="m-0">Kasd labore kasd et dolor est rebum dolor ut, clita dolor vero lorem amet elitr vero...</p>
+                         </div>
+                         </div>
+                         </div>
+                         <div class="col-lg-4 col-md-6 pb-1">
+                         <div class="d-flex bg-light shadow-sm border-top rounded mb-4" style="padding: 30px;">
+                         <i class="flaticon-025-sandwich h1 font-weight-normal text-primary mb-3"></i>
+                         <div class="pl-4">
+                         <h4>Healthy food</h4>
+                         <p class="m-0">Kasd labore kasd et dolor est rebum dolor ut, clita dolor vero lorem amet elitr vero...</p>
+                         </div>
+                         </div>
+                         </div>
+                         <div class="col-lg-4 col-md-6 pb-1">
+                         <div class="d-flex bg-light shadow-sm border-top rounded mb-4" style="padding: 30px;">
+                         <i class="flaticon-047-backpack h1 font-weight-normal text-primary mb-3"></i>
+                         <div class="pl-4">
+                         <h4>Educational Tour</h4>
+                         <p class="m-0">Kasd labore kasd et dolor est rebum dolor ut, clita dolor vero lorem amet elitr vero...</p>
+                         </div>
+                         </div>
+                         </div> -->
+                     </div>
+                 </div>
+             </div>
+             <!-- Facilities Start -->
          </div><!-- end container -->
      </div><!-- end section -->
 

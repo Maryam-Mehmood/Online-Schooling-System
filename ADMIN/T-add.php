@@ -45,19 +45,23 @@
              <div class="card-body">
                  <form action="#" method="post">
                      <div class="form-group">
-                         <label>Teacher Name</label>
+                         <label>Teacher Pic</label>
+                         <input type="text" class="form-control" name="pic">
+                     </div>
+                     <div class="form-group">
+                         <label>Name</label>
                          <input type="text" placeholder="Enter Teacher Name" class="form-control" name="name">
                      </div>
                      <div class="form-group">
-                         <label>Teacher Email</label>
+                         <label>Email</label>
                          <input type="email" placeholder="Enter Teacher Email" class="form-control" name="email">
                      </div>
                      <div class="form-group">
-                         <label>Teacher Phone No.</label>
+                         <label>Phone No.</label>
                          <input type="tel" placeholder="Enter Teacher Phone No." class="form-control" name="phone">
                      </div>
                      <div class="form-group">
-                         <label>Teacher Qualification</label>
+                         <label>Qualification</label>
                          <input type="text" placeholder="Enter Teacher Qualification" class="form-control" name="qual">
                      </div>
                      <div class="form-group">

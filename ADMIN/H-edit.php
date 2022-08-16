@@ -53,16 +53,20 @@
               <div class="card-body">
                  <form action="#" method="post">
                      <div class="form-group">
-                         <label>Holiday</label>
-                         <input type="text" class="form-control" name="hol" value="<?php echo $row[1];?>">
+                         <label>Day</label>
+                         <input type="text" class="form-control" name="day" value="<?php echo $row[1];?>">
                      </div>
                      <div class="form-group">
                          <label>Date</label>
                          <input type="date" class="form-control" name="date" value="<?php echo $row[2];?>">
                      </div>
                      <div class="form-group">
-                         <label>Day</label>
-                         <input type="text" class="form-control" name="day" value="<?php echo $row[3];?>">
+                         <label>Holiday Name</label>
+                         <input type="text" class="form-control" name="hol" value="<?php echo $row[3];?>">
+                     </div>
+                     <div class="form-group">
+                         <label>Details</label>
+                         <input type="text" class="form-control" name="del" value="<?php echo $row[4];?>">
                      </div>
                      <br>
                      <div class="form-group">
@@ -76,10 +80,11 @@
              }
              if(isset($_POST["submit"]))
                {
-                 $Holiday = $_POST["hol"];
-                 $Date = $_POST["date"];
                  $Day = $_POST["day"];
-                 $query = "UPDATE `holiday` SET `Holiday`='$Holiday',`Date`='$Date',`Day`='$Day' WHERE `Id=$id";
+                 $Date = $_POST["date"];
+                 $Holiday = $_POST["hol"];
+                 $Details = $_POST["del"];
+                 $query = "UPDATE `holiday` SET `Day`='$Day',`Date`='$Date',`Holiday`='$Holiday',`Detail`='$Details' WHERE `Id`=$id";
                  mysqli_query($conn,$query);
                  header("Location:table.php");
                 }
