@@ -1,6 +1,6 @@
 <?php
  session_start();
- $conn = mysqli_connect("Localhost","root","","online_schooling_system");
+ $conn = mysqli_connect("Localhost","root","","online-schooling-system(vision)");
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -273,7 +273,7 @@
                              <div class="d-flex bg-light shadow-sm border-top rounded mb-4" style="padding: 30px;">
                                  <i class="flaticon-022-drum h1 font-weight-normal text-primary mb-3"></i>
                                  <div class="pl-4">
-                                     <h4>Library</h4>
+                                     <h4><img src="images/library.png" alt="" width="50px"> Library</h4>
                                      <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
                                  </div>
                              </div>
@@ -282,7 +282,7 @@
                              <div class="d-flex bg-light shadow-sm border-top rounded mb-4" style="padding: 30px;">
                                  <i class="flaticon-030-crayons h1 font-weight-normal text-primary mb-3"></i>
                                  <div class="pl-4">
-                                     <h4>Arts and Crafts</h4>
+                                     <h4><img src="images/arts.png" alt="" width="50px"> Arts and Crafts</h4>
                                      <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
                                  </div>
                              </div>
