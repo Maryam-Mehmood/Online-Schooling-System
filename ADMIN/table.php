@@ -82,7 +82,47 @@
 
              <!-- Table Start -->
              <div class="container-fluid pt-4 px-4">
-                 <div class="row g-4">                      
+                 <div class="row g-4">  
+                     <!--SLIDER TABLE-->
+                     <div class="col-12">
+                         <div class="bg-secondary rounded h-100 p-4">
+                             <h2 class="mb-4 text-center">SLIDER</h2>
+                             <a href="Sl-add.php" class="btn btn-primary mb-2">Add New</a>
+                             <table class="table table-hover table-dark">
+                                 <thead>
+                                     <tr>
+                                         <th scope="col">#</th>
+                                         <th scope="col">Image-Url</th>
+                                         <th scope="col">Title</th>
+                                         <th scope="col">Description</th>
+                                         <th scope="col">Edit</th>
+                                         <th scope="col">Delete</th>
+                                     </tr>
+                                 </thead>
+                                 <tbody>
+                                     <?php
+                                         $query = "SELECT * FROM `slider`";
+                                         $result = mysqli_query($conn,$query);
+                                         if(mysqli_num_rows($result))
+                                           {
+                                             while($row = mysqli_fetch_array($result)){                                              
+                                        ?>     
+                                     <tr>
+                                         <th scope="row"><?php echo $row[0];?></th>
+                                         <td><?php echo $row[1];?></td>
+                                         <td><?php echo $row[2];?></td>
+                                         <td><?php echo $row[3];?></td>
+                                         <td><a href="Sl-edit.php?id=<?php echo $row[0]?>" class="btn btn-success">Edit</a></td>
+                                         <td><a href="delete.php?id=<?php echo $row[0]?>" class="btn btn-danger">Delete</a></td>
+                                     </tr>
+                                     <?php
+                                           }
+                                           }
+                                     ?>
+                                 </tbody>
+                             </table>
+                         </div>
+                     </div>                    
                      <!--ACTIVITY TABLE-->
                      <div class="col-12">
                          <div class="bg-secondary rounded h-100 p-4">
@@ -133,6 +173,7 @@
                                                 <th scope="col">Pic Url</th>
                                                 <th scope="col">Name</th>
                                                 <th scope="col">Email</th>
+                                                <th scope="col">Password</th>
                                                 <th scope="col">Phone</th>
                                                 <th scope="col">Qualification</th>
                                                 <th scope="col">Subjects</th>
@@ -155,6 +196,8 @@
                                                 <td><?php echo $row2[3];?></td>
                                                 <td><?php echo $row2[4];?></td>
                                                 <td><?php echo $row2[5];?></td>
+                                                <td><?php echo $row2[6];?></td>
+                                                <td><?php echo $row2[7];?></td>
                                                 <td><a href="T-edit.php?id=<?php echo $row2[0]?>" class="btn btn-success">Edit</a></td>
                                                 <td><a href="delete.php?id=<?php echo $row2[0]?>" class="btn btn-danger">Delete</a></td>
                                             </tr>
@@ -180,6 +223,7 @@
                                                 <th scope="col">Mother Name</th>
                                                 <th scope="col">Date of Birth</th>
                                                 <th scope="col">Email</th>
+                                                <th scope="col">Password</th>
                                                 <th scope="col">Phone</th>
                                                 <th scope="col">Address</th>
                                                 <th scope="col">Nationality</th>
@@ -213,6 +257,7 @@
                                                 <td><?php echo $row3[10];?></td>
                                                 <td><?php echo $row3[11];?></td>
                                                 <td><?php echo $row3[12];?></td>
+                                                <td><?php echo $row3[13];?></td>
                                                 <td><a href="S-edit.php?id=<?php echo $row3[0]?>" class="btn btn-success">Edit</a></td>
                                                 <td><a href="delete.php?id=<?php echo $row3[0]?>" class="btn btn-danger">Delete</a></td>
                                             </tr>

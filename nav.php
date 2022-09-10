@@ -71,6 +71,7 @@
 						 <li class="nav-item"><a class="nav-link" href="class.php">Classes</a></li>
 						 <li class="nav-item"><a class="nav-link" href="teachers.php">Teachers</a></li>
 						 <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
+                         <li class="nav-item"><a class="nav-link" href="">Login / Register</a></li>
 					 </ul>
 					 <ul class="nav navbar-nav navbar-right">
                          <li><a class="hover-btn-new log orange" href="admission.php"><span>Get Admission</span></a></li>
