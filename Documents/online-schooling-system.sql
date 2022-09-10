@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.1.3
+-- version 5.2.0
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 16, 2022 at 07:34 AM
--- Server version: 10.4.22-MariaDB
--- PHP Version: 7.4.28
+-- Generation Time: Sep 10, 2022 at 06:54 AM
+-- Server version: 10.4.24-MariaDB
+-- PHP Version: 7.4.29
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `online_schooling_system`
+-- Database: `online-schooling-system(vision)`
 --
 
 -- --------------------------------------------------------
@@ -38,7 +38,6 @@ CREATE TABLE `activities` (
 --
 
 INSERT INTO `activities` (`Id`, `Activity`, `Pic`) VALUES
-(1, 'Sports', 'Tests'),
 (7, 'Library', 'Testing'),
 (9, 'Art & Craft', 'Test');
 
@@ -83,7 +82,6 @@ CREATE TABLE `holiday` (
 --
 
 INSERT INTO `holiday` (`Id`, `Day`, `Date`, `Holiday`, `Detail`) VALUES
-(1, 'Sunday', '2022-08-14', 'Independence Day', 'Testing'),
 (2, 'Monday', '2022-09-05', 'Labour Day', 'Testing');
 
 -- --------------------------------------------------------
@@ -105,6 +103,26 @@ CREATE TABLE `onlie_fees_voucher` (
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `slider`
+--
+
+CREATE TABLE `slider` (
+  `Id` int(11) NOT NULL,
+  `Image-Url` varchar(225) NOT NULL,
+  `Title` varchar(225) NOT NULL,
+  `Description` varchar(225) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `slider`
+--
+
+INSERT INTO `slider` (`Id`, `Image-Url`, `Title`, `Description`) VALUES
+(2, 'test', 'test', 'test');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `student`
 --
 
@@ -115,6 +133,7 @@ CREATE TABLE `student` (
   `Mother_Name` varchar(225) NOT NULL,
   `Date_of_Birth` varchar(225) NOT NULL,
   `Email` varchar(225) NOT NULL,
+  `Pass` varchar(225) NOT NULL,
   `Phone` varchar(225) NOT NULL,
   `Address` varchar(225) NOT NULL,
   `Nationality` varchar(225) NOT NULL,
@@ -128,9 +147,9 @@ CREATE TABLE `student` (
 -- Dumping data for table `student`
 --
 
-INSERT INTO `student` (`Id`, `First_Name`, `Father_Name`, `Mother_Name`, `Date_of_Birth`, `Email`, `Phone`, `Address`, `Nationality`, `Religion`, `Class`, `Date`, `Report_Card`) VALUES
-(2, 'Amna', 'Khan', 'test', '01-01-2004', 'a@gmail.com', '033345', 'testing', 'Pak', 'Islam', '10', '2022-06-27', 'test'),
-(11, 'Ali', 'Khan', 'test', '2022-08-16', 'a@gmail.com', '03030', 'test', 'Pak', 'Islam', '9', '2022-08-17', '');
+INSERT INTO `student` (`Id`, `First_Name`, `Father_Name`, `Mother_Name`, `Date_of_Birth`, `Email`, `Pass`, `Phone`, `Address`, `Nationality`, `Religion`, `Class`, `Date`, `Report_Card`) VALUES
+(2, 'Amna', 'Khan', 'test', '01-01-2004', 'a@gmail.com', '', '033345', 'testing', 'Pak', 'Islam', '10', '2022-06-27', 'test'),
+(11, 'Ali', 'Khan', 'test', '2022-08-16', 'a@gmail.com', '', '03030', 'test', 'Pak', 'Islam', '9', '2022-08-17', '');
 
 -- --------------------------------------------------------
 
@@ -143,17 +162,11 @@ CREATE TABLE `teacher` (
   `Image_Url` varchar(225) NOT NULL,
   `Name` varchar(225) NOT NULL,
   `Email` varchar(225) NOT NULL,
+  `Pass` varchar(225) NOT NULL,
   `Phone` varchar(225) NOT NULL,
   `Qualification` varchar(225) NOT NULL,
   `Subjects` varchar(225) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Dumping data for table `teacher`
---
-
-INSERT INTO `teacher` (`Id`, `Image_Url`, `Name`, `Email`, `Phone`, `Qualification`, `Subjects`) VALUES
-(1, '', 'Ayesha', 'a@gmail.com', '0300-00000', 'Master in English', 'English');
 
 --
 -- Indexes for dumped tables
@@ -181,6 +194,12 @@ ALTER TABLE `holiday`
 -- Indexes for table `onlie_fees_voucher`
 --
 ALTER TABLE `onlie_fees_voucher`
+  ADD PRIMARY KEY (`Id`);
+
+--
+-- Indexes for table `slider`
+--
+ALTER TABLE `slider`
   ADD PRIMARY KEY (`Id`);
 
 --
@@ -222,6 +241,12 @@ ALTER TABLE `holiday`
 --
 ALTER TABLE `onlie_fees_voucher`
   MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT for table `slider`
+--
+ALTER TABLE `slider`
+  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `student`
