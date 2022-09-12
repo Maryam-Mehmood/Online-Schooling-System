@@ -75,7 +75,7 @@
 				
 			     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                      <div class="post-media wow fadeIn">
-                         <img src="https://i.ytimg.com/vi/mVumqstmg2k/mqdefault.jpg" alt="" class="img-fluid img-rounded">
+                         <img src="https://www.bedriven.com/images/School-Transportation.jpg" alt="" class="img-fluid img-rounded">
                          <!-- <img src="images/about_02.jpg" alt="" class="img-fluid img-rounded"> -->
                      </div><!-- end media -->
                  </div><!-- end col -->
@@ -83,7 +83,7 @@
 			 <div class="row align-items-center">
 			     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                      <div class="post-media wow fadeIn">
-                     <img src="https://thumbs.dreamstime.com/b/flat-design-concept-online-books-store-hand-pick-book-inte-flat-design-concept-online-books-store-hand-pick-book-117511460.jpg" alt="" class="img-fluid img-rounded">
+                     <img src="https://lab-training.com/wp-content/uploads/2017/07/Online-Books.jpg" alt="" class="img-fluid img-rounded">
                          <!-- <img src="images/about_03.jpg" alt="" class="img-fluid img-rounded"> -->
                      </div><!-- end media -->
                  </div><!-- end col -->
@@ -157,6 +157,7 @@
                              <!-- end testi-meta -->
                          </div>
                          <!-- end testimonial -->
+                         
  
                          <div class="testimonial clearfix">
 						     <div class="testi-meta">

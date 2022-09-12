@@ -1,6 +1,6 @@
 <?php
- session_start();
- $conn = mysqli_connect("localhost","root","","online-school-system");
+    session_start();
+    $conn = mysqli_connect("localhost","root","","online-schooling-system");
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -8,11 +8,11 @@
      <!-- Basic -->
      <meta charset="utf-8">
      <meta http-equiv="X-UA-Compatible" content="IE=edge">   
-    
+   
      <!-- Mobile Metas -->
      <meta name="viewport" content="width=device-width, initial-scale=1">
- 
-     <!-- Site Metas -->
+
+      <!-- Site Metas -->
      <title>SmartEDU - Education</title>  
      <meta name="keywords" content="">
      <meta name="description" content="">
