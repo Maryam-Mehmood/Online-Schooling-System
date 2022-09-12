@@ -57,7 +57,7 @@
 	 <div id="teachers" class="section wb">
          <div class="container">
              <div class="row">
-	             <div class="col-lg-3 col-md-6 col-12">
+	             <div class="col-md-4">
 					 <div class="our-team">
 						 <?php
                              $query = "SELECT * FROM `teacher`";
@@ -67,11 +67,14 @@
                                  while($row = mysqli_fetch_array($result)){                                              
                             ?> 
 						 <div class="team-img">
-							 <img src="images/team-01.png">
+							 <img src="images/team-1.jpg">
 						 </div>
 					     <div class="team-content">
 						     <h3 class="title"><?php echo $row[2];?></h3>
-							 <span class="post"><?php echo $row[6];?></span>
+                             <span class="post">Qualification: <?php echo $row[6];?></span>
+							 <span class="post">Email: <?php echo $row[3];?></span>
+                             <span class="post">Phone No: <?php echo $row[5];?></span>
+                             <span class="post">Subjects: <?php echo $row[7];?></span>
 						 </div>
 						 <?php
 			 				 }
