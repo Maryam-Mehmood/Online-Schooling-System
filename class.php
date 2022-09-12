@@ -55,7 +55,30 @@
 			 <h1>Classes<span class="m_1">Lorem Ipsum dolroin gravida nibh vel velit.</span></h1>
 		 </div>
 	 </div>
-	
+	 <div class="container mt-3">
+         <div class="card">
+             <div class="card-header">
+                 <h2>Be On Clock and Manage School Time Effectively</h2>
+             </div>
+             <div class="card-body">
+                 <h5 class="card-title">Special title treatment</h5>
+                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                 <a href="#" class="btn btn-primary">Go somewhere</a>
+             </div>
+         </div>
+         <!-- <div class="row">
+             <div class="col-md-6">
+                 <h3><b>Be On Clock and Manage School Time Effectively</b></h3>
+                 <p>
+                     Preparation of timetable is a basic element of any institute. With managing all the different aspects
+                     and scheduling classes for students, schedules for teachers and master table for the school administrator,
+                     it is a daunting and hectic task for anyone. To utilize every second while being hassle-free can only be done 
+                     through the school timetable management system. Timetable management software provides basic to advance level of 
+                     comfortability and efficiency with effective data storage capability and real-time monitoring features.
+                 </p>
+            </div>
+         </div> -->
+     </div>
 	 <div id="teachers" class="section wb">
          <div class="container">
              <div class="">
