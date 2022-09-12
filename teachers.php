@@ -1,6 +1,6 @@
 <?php
  session_start();
- $conn = mysqli_connect("localhost","root","","online-schooling-system");
+ $conn = mysqli_connect("localhost","root","","online-school-system");
 ?>
 <!DOCTYPE html>
 <html lang="en">

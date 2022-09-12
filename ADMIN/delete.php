@@ -1,5 +1,5 @@
 <?php
- $conn = mysqli_connect("localhost","root","","online-schooling-system(vision)");
+ $conn = mysqli_connect("localhost","root","","online-school-system");
 
  $id = $_GET["id"];
  
