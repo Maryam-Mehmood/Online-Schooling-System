@@ -56,16 +56,27 @@
 		 </div>
 	 </div>
 	 <div class="container mt-3">
-         <div class="card">
-             <div class="card-header">
-                 <h2>Be On Clock and Manage School Time Effectively</h2>
-             </div>
-             <div class="card-body">
-                 <h5 class="card-title">Special title treatment</h5>
-                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                 <a href="#" class="btn btn-primary">Go somewhere</a>
-             </div>
-         </div>
+         <div class="row align-items-center">
+             <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                 <div class="message-box">
+                     <h2>Be On Clock and Manage School Time Effectively</h2>
+                     <p>
+                         Preparation of timetable is a basic element of any institute. With managing all the different aspects
+                         and scheduling classes for students, schedules for teachers and master table for the <strong>school administrator</strong>,
+                         it is a daunting and hectic task for anyone. To utilize every second while being hassle-free can only be done 
+                         through the <strong>school timetable management system</strong>. Timetable management software provides basic to advance level of 
+                         comfortability and efficiency with effective data storage capability and real-time monitoring features.
+                     </p>
+                     <a href="#" class="hover-btn-new orange"><span>Learn More</span></a>
+                 </div><!-- end messagebox -->
+             </div><!-- end col -->
+             <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                 <div class="post-media wow fadeIn">
+                     <img src="images/time.png" alt="" height="400px" width="50px">
+                     <!-- <img src="images/about_02.jpg" alt="" class="img-fluid img-rounded"> -->
+                 </div><!-- end media -->
+             </div><!-- end col -->
+		 </div>
          <!-- <div class="row">
              <div class="col-md-6">
                  <h3><b>Be On Clock and Manage School Time Effectively</b></h3>
