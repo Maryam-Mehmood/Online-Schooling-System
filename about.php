@@ -7,6 +7,10 @@
    
      <!-- Mobile Metas -->
      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+     <!--logo--->
+     <link rel="icon" type="image" href="images/mimilogo.png">
+
  
      <!-- Site Metas -->
      <title>SmartEDU - Education</title>  
