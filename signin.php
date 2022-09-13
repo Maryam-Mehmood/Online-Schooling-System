@@ -1,3 +1,6 @@
+<?php
+ session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -42,39 +45,54 @@
          <!-- Spinner End -->
 
          <!-- Sign In Start -->
-         <div class="container-fluid">
+         <div class="container-fluid" style="background-color: white;">
              <div class="row h-100 align-items-center justify-content-center" style="min-height: 100vh;">
                  <div class="col-12 col-sm-8 col-md-6 col-lg-5 col-xl-4">
-                     <div class="bg-secondary rounded p-4 p-sm-5 my-4 mx-3">
+              
+                <form action="#" method="POST">
+
+                <div class="bg-secondary rounded p-4 p-sm-5 my-4 mx-3">
                          <div class="d-flex align-items-center justify-content-between mb-3">
                              <a href="index.html" class="">
-                                 <h3 class="text-primary"><i class="fa fa-user-edit me-2"></i>SmartEDU</h3>
+                                 <h3 class="text-primary text-center"><i class="fa fa-user-edit me-2"></i>SmartEDU</h3>
+                                 <h3>Sign In for Students</h3>
                              </a>
-                             <h3>Sign In</h3>
                          </div>
                          <div class="form-floating mb-3">
-                             <input type="text" class="form-control" id="floatingInput" placeholder="Teacher / Student Name">
-                             <label for="floatingInput">User Name</label>
-                         </div>
-                         <div class="form-floating mb-3">
-                             <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
                              <label for="floatingInput">Email address</label>
+                             <input type="email" class="form-control" name="email" id="floatingInput" placeholder="name@example.com">
                          </div>
                          <div class="form-floating mb-4">
-                             <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
                              <label for="floatingPassword">Password</label>
+                             <input type="password" class="form-control" name="password" id="floatingPassword" placeholder="Password">
                          </div>
                          <div class="d-flex align-items-center justify-content-between mb-4">
-                             <div class="form-check">
+                             <!-- <div class="form-check">
                                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
                                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                             </div>
-                             <a href="">Forgot Password</a>
+                             </div> -->
+                           <?php
+                        //    error_reporting(0);
+                             if(isset($_GET["invalid"])){
+                                                ?>
+                             <a href="" class="text-danger">Invalid Email or password</a>
+                                                        
+                                                <?php
+                                            }
+                                            ?>
+                           
                          </div>
-                         <button type="submit" class="btn btn-primary py-3 w-100 mb-4">Sign In</button>
-                         <p class="text-center mb-0">Don't have an Account? <a href="">Sign Up</a></p>
+                         <button type="submit" name="submit" class="btn btn-primary py-3 w-100 mb-4">Sign In</button>
+                         <p class="text-center mb-0">Don't have an Account? <a href="signup.html">Sign Up</a></p>
                      </div>
-                 </div>
+              
+
+
+
+                </form>
+              
+              
+                </div>
              </div>
          </div>
          <!-- Sign In End -->
@@ -96,3 +114,43 @@
  </body>
 
 </html>
+
+<?php
+ if(isset($_POST["submit"]))
+   {
+     $conn = mysqli_connect("localhost","root","","online-school-system");
+     
+     $email = $_POST["email"];
+     $password = $_POST["password"];
+     
+     $query = "SELECT * FROM `student` WHERE `Email` = '$email' AND `Pass` = '$password'";
+     $result = mysqli_query($conn,$query);
+     
+     if (mysqli_num_rows($result))
+       {
+         while($row = mysqli_fetch_array($result))
+           {
+             if($row[14] == 2)
+               {
+                 $_SESSION["username"] = $row[1];
+                 $_SESSION["email"] = $row["5"];
+                 $_SESSION["phone"] = $row["7"];
+                 $_SESSION["role"] = $row["14"];
+                 ?>
+                 <script>
+                     window.location.assign("index.php");
+                 </script>
+                 <?php
+                }
+            }
+        }
+     else
+       {
+         ?>
+         <script>
+             window.location.assign("signin.php?invalid");        
+         </script>
+         <?php
+        }                    
+    }
+?>

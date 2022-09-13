@@ -110,6 +110,14 @@
                                      <h3 class="text-white">Student Admission Date</h3>
                                      <input type="date" name="date" class="form-control" required>
                                  </div>
+                                 <div class="col-lg-6 col-md-6 col-sm-6">
+                                     <h3 class="text-white">Previous Class</h3>
+                                     <input type="text" name="pc" class="form-control" placeholder="Student Previous Class" required>
+                                 </div>
+                                 <div class="col-lg-6 col-md-6 col-sm-6">
+                                     <h3 class="text-white">Previous School</h3>
+                                     <input type="text" name="ps" class="form-control" placeholder="Student Previous School" required>
+                                 </div>
                                  <div class="text-center pd">
                                      <button type="submit" value="SEND" class="btn btn-light btn-radius btn-brd grd1 btn-block" name="submit">Get Admission</button>
                                  </div>

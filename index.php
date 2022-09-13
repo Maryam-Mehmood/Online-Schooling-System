@@ -1,6 +1,8 @@
 <?php
-    session_start();
     $conn = mysqli_connect("localhost","root","","online-school-system");
+    session_start();
+
+    // $_SESSION["role"] = "";
 ?>
 <!DOCTYPE html>
 <html lang="en">

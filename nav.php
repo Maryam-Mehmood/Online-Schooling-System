@@ -1,47 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
- <head>
-     <!-- Basic -->
-     <meta charset="utf-8">
-     <meta http-equiv="X-UA-Compatible" content="IE=edge">   
-    
-     <!-- Mobile Metas -->
-     <meta name="viewport" content="width=device-width, initial-scale=1">
- 
-     <!-- Site Metas -->
-     <title>SmartEDU - Education</title>  
-     <meta name="keywords" content="">
-     <meta name="description" content="">
-     <meta name="author" content="">
-
-     <!-- Site Icons -->
-     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
-     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
- 
-     <!-- Bootstrap CSS -->
-     <link rel="stylesheet" href="css/bootstrap.min.css">
-     <!-- Site CSS -->
-     <link rel="stylesheet" href="style.css">
-     <!-- ALL VERSION CSS -->
-     <link rel="stylesheet" href="css/versions.css">
-     <!-- Responsive CSS -->
-     <link rel="stylesheet" href="css/responsive.css">
-     <!-- Custom CSS -->
-     <link rel="stylesheet" href="css/custom.css">
-     <!-- Fontawesome CSS -->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
-
-     <!-- Modernizer for Portfolio -->
-     <script src="js/modernizer.js"></script>
-
-     <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-     <![endif]-->
-
- </head>
- <body class="host_version">  
-
      <!-- LOADER -->
      <div id="preloader">
 	     <div class="loader-container">
@@ -71,29 +27,33 @@
 						 <li class="nav-item"><a class="nav-link" href="class.php">Classes</a></li>
 						 <li class="nav-item"><a class="nav-link" href="teachers.php">Teachers</a></li>
 						 <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
-                         <li class="nav-item"><a class="nav-link" href="">Login / Register</a></li>
-					 </ul>
+                         <?php
+                             error_reporting(0);
+                             if($_SESSION["role"] == null)
+							   {
+                                 ?>
+                                 <li class="nav-item"><a class="nav-link" href="signin.php">Login / Register</a></li>
+                                 <?php
+                                }
+                             else if($_SESSION["role"] == 2)
+							   {
+                                 ?>
+                                 <li class="nav-item"><a class="nav-link" href="">Profile</a></li>
+								 <li class="nav-item"><a class="nav-link" href="signout.php">Sign Out</a></li>
+        		                 <?php
+                                }
+                            ?>
+                     </ul>
 					 <ul class="nav navbar-nav navbar-right">
+                         <?php
+                         if($_SESSION["role"] == 2){
+                         ?>
                          <li><a class="hover-btn-new log orange" href="admission.php"><span>Get Admission</span></a></li>
+                         <?php
+                         }
+                         ?>
                      </ul>
 				 </div>
 			 </div>
 		 </nav>
 	 </header>
-	 <!-- End header -->
-     <!-- ALL JS FILES -->
-     <script src="js/all.js"></script>
-     <!-- ALL PLUGINS -->
-     <script src="js/custom.js"></script>
-	 <script src="js/timeline.min.js"></script>
-	 <script>
-	 	 timeline(document.querySelectorAll('.timeline'), 
-           {
-		     forceVerticalMode: 700,
-			 mode: 'horizontal',
-			 verticalStartPosition: 'left',
-			 visibleItems: 4
-		    });
-	 </script>
- </body>
-</html>
