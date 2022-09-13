@@ -34,65 +34,56 @@
      <link href="css/style.css" rel="stylesheet">
  </head>
 
- <body>
+ <body style="background-image: url('images/bk.jpg'); background-repeat: no-repeat; background-size: 100% 100%;">
      <div class="container-fluid position-relative d-flex p-0">
          <!-- Spinner Start -->
-         <div id="spinner" class="show bg-dark position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+         <!-- <div id="spinner" class="show bg-dark position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
              <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
                  <span class="sr-only">Loading...</span>
              </div>
-         </div>
+         </div> -->
          <!-- Spinner End -->
 
          <!-- Sign In Start -->
-         <div class="container-fluid" style="background-color: white;">
+         <div class="container-fluid">
              <div class="row h-100 align-items-center justify-content-center" style="min-height: 100vh;">
                  <div class="col-12 col-sm-8 col-md-6 col-lg-5 col-xl-4">
-              
-                <form action="#" method="POST">
-
-                <div class="bg-secondary rounded p-4 p-sm-5 my-4 mx-3">
-                         <div class="d-flex align-items-center justify-content-between mb-3">
-                             <a href="index.html" class="">
-                                 <h3 class="text-primary text-center"><i class="fa fa-user-edit me-2"></i>SmartEDU</h3>
-                                 <h3>Sign In for Students</h3>
-                             </a>
-                         </div>
-                         <div class="form-floating mb-3">
-                             <label for="floatingInput">Email address</label>
-                             <input type="email" class="form-control" name="email" id="floatingInput" placeholder="name@example.com">
-                         </div>
-                         <div class="form-floating mb-4">
-                             <label for="floatingPassword">Password</label>
-                             <input type="password" class="form-control" name="password" id="floatingPassword" placeholder="Password">
-                         </div>
-                         <div class="d-flex align-items-center justify-content-between mb-4">
-                             <!-- <div class="form-check">
+                     <form action="#" method="POST">
+                         <div class="bg-light rounded p-4 p-sm-5 my-4 mx-3">
+                             <div class="d-flex align-items-center justify-content-between mb-3">
+                                 <a href="index.html" class="">
+                                     <h3 class="text-primary text-center"><i class="fa fa-user-edit me-2"></i>SmartEDU</h3>
+                                     <h3 class="text-center">Sign In for Students</h3>
+                                 </a>
+                             </div>
+                             <div class="form-floating mb-3">
+                                 <label for="floatingInput">Email address</label>
+                                 <input type="email" class="form-control" name="email" id="floatingInput" placeholder="name@example.com">
+                             </div>
+                             <div class="form-floating mb-4">
+                                 <label for="floatingPassword">Password</label>
+                                 <input type="password" class="form-control" name="password" id="floatingPassword" placeholder="Password">
+                             </div>
+                             <div class="d-flex align-items-center justify-content-between mb-4">
+                                 <!-- <div class="form-check">
                                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
                                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                             </div> -->
-                           <?php
-                        //    error_reporting(0);
-                             if(isset($_GET["invalid"])){
-                                                ?>
-                             <a href="" class="text-danger">Invalid Email or password</a>
-                                                        
-                                                <?php
-                                            }
-                                            ?>
-                           
-                         </div>
-                         <button type="submit" name="submit" class="btn btn-primary py-3 w-100 mb-4">Sign In</button>
-                         <p class="text-center mb-0">Don't have an Account? <a href="signup.html">Sign Up</a></p>
-                     </div>
-              
-
-
-
-                </form>
-              
-              
-                </div>
+                                 </div> -->
+                                 <?php
+                                     //    error_reporting(0);
+                                     if(isset($_GET["invalid"]))
+                                       {
+                                         ?>
+                                         <a href="" class="text-danger">Invalid Email or password</a>                                    
+                                         <?php
+                                        }
+                                    ?>                   
+                             </div>
+                             <button type="submit" name="submit" class="btn btn-primary py-3 w-100 mb-4">Sign In</button>
+                             <p class="text-center mb-0">Don't have an Account? <a href="signup.php">Sign Up</a></p>
+                         </div>         
+                     </form>     
+                 </div>
              </div>
          </div>
          <!-- Sign In End -->

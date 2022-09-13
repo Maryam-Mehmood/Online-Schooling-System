@@ -72,7 +72,7 @@
                              <span class="d-none d-lg-inline-flex">My School</span>
                          </a>
                          <div class="dropdown-menu dropdown-menu-end bg-secondary border-0 rounded-0 rounded-bottom m-0">
-                             <a href="logout.php" class="dropdown-item">Log Out</a>
+                             <a href="signoutA.php" class="dropdown-item">Log Out</a>
                          </div>
                      </div>
                  </div>
