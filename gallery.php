@@ -5,78 +5,77 @@
 <!DOCTYPE html>
 <html lang="en">
  <head>
-     <!-- Basic -->
-     <meta charset="utf-8">
-     <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   <!-- Basic -->
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">   
    
-     <!-- Mobile Metas -->
-     <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- Mobile Metas -->
+   <meta name="viewport" content="width=device-width, initial-scale=1">
  
-     <!-- Site Metas -->
-     <title>SmartEDU - Education</title>  
-     <meta name="keywords" content="">
-     <meta name="description" content="">
-     <meta name="author" content="">
+   <!-- Site Metas -->
+   <title>SmartEDU - Education</title>  
+   <meta name="keywords" content="">
+   <meta name="description" content="">
+   <meta name="author" content="">
 
-     <!-- Site Icons -->
-     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
-     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+   <!-- Site Icons -->
+   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+   <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 
-     <!-- Bootstrap CSS -->
-     <link rel="stylesheet" href="css/bootstrap.min.css">
-     <!-- Site CSS -->
-     <link rel="stylesheet" href="style.css">
-     <!-- ALL VERSION CSS -->
-     <link rel="stylesheet" href="css/versions.css">
-     <!-- Responsive CSS -->
-     <link rel="stylesheet" href="css/responsive.css">
-     <!-- Custom CSS -->
-     <link rel="stylesheet" href="css/custom.css">
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <!-- Site CSS -->
+   <link rel="stylesheet" href="style.css">
+   <!-- ALL VERSION CSS -->
+   <link rel="stylesheet" href="css/versions.css">
+   <!-- Responsive CSS -->
+   <link rel="stylesheet" href="css/responsive.css">
+   <!-- Custom CSS -->
+   <link rel="stylesheet" href="css/custom.css">
 
-     <!-- Modernizer for Portfolio -->
-     <script src="js/modernizer.js"></script>
+   <!-- Modernizer for Portfolio -->
+   <script src="js/modernizer.js"></script>
 
-     <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+   <!--[if lt IE 9]>
+     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-     <![endif]-->
-
+   <![endif]-->
  </head>
  <style>
-body {
-  padding: 2em;
-}
-.card {
-  border: none;
-}
-img,
-.card-img-top {
-  border-radius: 0em;
-}
+   body {
+   padding: 2em;
+  }
+ .card {
+   border: none;
+ }
+ img,
+ .card-img-top {
+   border-radius: 0em;
+ }
 
-@media (min-width: 576px) {
+ @media (min-width: 576px) {
   .card-columns {
     column-count: 2;
   }
-}
+ }
 
-@media (min-width: 768px) {
+ @media (min-width: 768px) {
   .card-columns {
     column-count: 3;
   }
-}
+ }
 
-@media (min-width: 992px) {
+ @media (min-width: 992px) {
   .card-columns {
     column-count: 4;
   }
-}
+ }
 
-@media (min-width: 1200px) {
+ @media (min-width: 1200px) {
   .card-columns {
     column-count: 5;
   }
-}
+ }
 
  </style>
 
