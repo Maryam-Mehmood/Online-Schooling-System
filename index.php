@@ -109,7 +109,7 @@
 						     <div class="row">
 							     <div class="col-md-12 col-sm-12 text-center">
 								     <div class="big-tagline">
-									     <h2 data-animation="animated zoomInRight"><strong>VPS Servers</strong> Company</h2>
+									     <h2 data-animation="animated zoomInRight"><strong>Find Scholarships </strong>to Finance Your Study</h2>
 										 <p class="lead" data-animation="animated fadeInLeft">1 IP included with each server 
 										     Your Choice of any OS (CentOS, Windows, Debian, Fedora)
 										     FREE Reboots
