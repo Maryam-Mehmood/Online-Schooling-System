@@ -41,16 +41,16 @@
      <div class="container">
          <h1 class="text-center">Insert New Holiday</h1>
          <div class="card mt-5">
-             <h3 class="card-header text-center">HOLIDAIES</h3>
+             <h3 class="card-header text-center">HOLIDAYS</h3>
              <div class="card-body">
                  <form action="#" method="post">
                      <div class="form-group">
-                         <label>Day</label>
-                         <input type="text" placeholder="Enter Holiday Day" class="form-control" name="day">
-                     </div>
-                     <div class="form-group">
                          <label>Date</label>
                          <input type="date" placeholder="Enter Holiday Date" class="form-control" name="date">
+                     </div>
+                     <div class="form-group">
+                         <label>Day</label>
+                         <input type="text" placeholder="Enter Holiday Day" class="form-control" name="day">
                      </div>
                      <div class="form-group">
                          <label>Holiday Name</label>
@@ -73,11 +73,11 @@
 <?php
  if(isset($_POST["submit"]))
    {
-     $Day = $_POST["day"];
      $Date = $_POST["date"];
+     $Day = $_POST["day"];
      $Holiday = $_POST["hol"];
      $Details = $_POST["del"];
-     $query = "INSERT INTO `holiday`(`Day`, `Date`, `Holiday`, `Detail`) VALUES ('$Day','$Date','$Holiday','$Details')";
+     $query = "INSERT INTO `holiday`(`Date`, `Day`, `Holiday`, `Detail`) VALUES ('$Date','$Day','$Holiday','$Details')";
      mysqli_query($conn,$query);
 ?>
 <Script>

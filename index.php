@@ -222,8 +222,8 @@
                                          <table class="table table-hover">
                                              <thead>
                                                  <tr>
-                                                     <th scope="col">Day</th>
                                                      <th scope="col">Date</th>
+                                                     <th scope="col">Day</th>
                                                      <th scope="col">Holiday Name</th>
                                                      <th scope="col">Detail</th>        
                                                  </tr>

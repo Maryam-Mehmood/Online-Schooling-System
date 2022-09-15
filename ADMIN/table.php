@@ -132,8 +132,8 @@
                                  <thead>
                                      <tr>
                                          <th scope="col">#</th>
+                                         <th scope="col">Image</th>
                                          <th scope="col">Activity</th>
-                                         <th scope="col">Picture</th>
                                          <th scope="col">Edit</th>
                                          <th scope="col">Delete</th>
                                      </tr>
@@ -278,8 +278,8 @@
                                  <thead>
                                      <tr>
                                          <th scope="col">#</th>
-                                         <th scope="col">Day</th>
                                          <th scope="col">Date</th>
+                                         <th scope="col">Day</th>
                                          <th scope="col">Holiday Name</th>
                                          <th scope="col">Detail</th>
                                          <th scope="col">Edit</th>

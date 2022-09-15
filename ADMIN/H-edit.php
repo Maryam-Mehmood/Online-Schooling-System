@@ -53,12 +53,12 @@
               <div class="card-body">
                  <form action="#" method="post">
                      <div class="form-group">
-                         <label>Day</label>
-                         <input type="text" class="form-control" name="day" value="<?php echo $row[1];?>">
+                         <label>Date</label>
+                         <input type="date" class="form-control" name="date" value="<?php echo $row[1];?>">
                      </div>
                      <div class="form-group">
-                         <label>Date</label>
-                         <input type="date" class="form-control" name="date" value="<?php echo $row[2];?>">
+                         <label>Day</label>
+                         <input type="text" class="form-control" name="day" value="<?php echo $row[2];?>">
                      </div>
                      <div class="form-group">
                          <label>Holiday Name</label>
@@ -80,11 +80,11 @@
              }
              if(isset($_POST["submit"]))
                {
-                 $Day = $_POST["day"];
                  $Date = $_POST["date"];
+                 $Day = $_POST["day"];
                  $Holiday = $_POST["hol"];
                  $Details = $_POST["del"];
-                 $query = "UPDATE `holiday` SET `Day`='$Day',`Date`='$Date',`Holiday`='$Holiday',`Detail`='$Details' WHERE `Id`=$id";
+                 $query = "UPDATE `holiday` SET `Date`='$Date',`Day`='$Day',`Holiday`='$Holiday',`Detail`='$Details' WHERE `Id`=$id";
                  mysqli_query($conn,$query);
                  header("Location:table.php");
                 }

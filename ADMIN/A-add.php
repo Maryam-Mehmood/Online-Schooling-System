@@ -45,12 +45,12 @@
              <div class="card-body">
                  <form action="#" method="post">
                      <div class="form-group">
-                         <label>Activity</label>
-                         <input type="text" placeholder="Enter Activity" class="form-control" name="act">
+                         <label>Image</label>
+                         <input type="text" placeholder="Enter Activity Image" class="form-control" name="img">
                      </div>
                      <div class="form-group">
-                         <label>Pic</label>
-                         <input type="text" placeholder="Enter Library" class="form-control" name="pic">
+                         <label>Activity</label>
+                         <input type="text" placeholder="Enter Activity" class="form-control" name="act">
                      </div>
                      <br>
                      <div class="form-group">
@@ -65,9 +65,9 @@
 <?php
  if(isset($_POST["submit"]))
    {
+     $Img = $_POST["img"];
      $Activity = $_POST["act"];
-     $Pic = $_POST["pic"];
-     $query = "INSERT INTO `activities`(`Activity`, `Pic`) VALUES ('$Activity','$Pic')";
+     $query = "INSERT INTO `activities`(`Image` , `Activity`) VALUES ('$Activity' , '$Img')";
      mysqli_query($conn,$query);
      header("Location:table.php");
     }
