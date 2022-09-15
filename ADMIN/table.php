@@ -49,12 +49,12 @@
          <div class="sidebar pe-4 pb-3">
              <nav class="navbar bg-secondary navbar-dark">
                  <a href="index.php" class="ms-auto me-auto navbar-brand mx-4 mb-3">
-                     <h3 class="text-primary"><img src="img/logo.png" alt=""></h3>
+                     <h3 class="text-primary"><img src="img/logo.png" alt="" width="150px"></h3>
                  </a>
                  <div class="navbar-nav w-100">
                      <a href="index.php" class="nav-item nav-link active"><i class="fa fa-tachometer-alt me-2"></i>Dashboard</a>
-                     <a href="form.php" class="nav-item nav-link"><i class="fa fa-keyboard me-2"></i>Forms</a>
                      <a href="table.php" class="nav-item nav-link"><i class="fa fa-table me-2"></i>Tables</a>
+                     <a href="form.php" class="nav-item nav-link"><i class="fa fa-keyboard me-2"></i>Forms</a>
                  </div>
              </nav>
          </div>
@@ -357,7 +357,7 @@
                  <div class="bg-secondary rounded-top p-4">
                      <div class="row">
                          <div class="col-12 col-sm-6 text-center text-sm-start">
-                             &copy; <a href="#">My Online School</a>, All Right Reserved. 
+                             &copy; <a href="#">My School</a>, All Right Reserved. 
                          </div>
                          <div class="col-12 col-sm-6 text-center text-sm-end">
                              <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
