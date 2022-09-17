@@ -138,7 +138,7 @@
                          <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
                              <i class="fa fa-chart-line fa-3x text-primary"></i>
                              <div class="ms-3">
-                                 <p class="mb-2">Holidays</p>
+                                 <p class="mb-2">Holiday</p>
                                  <h6 class="mb-0">
                                  <?php
                                      $query = "SELECT COUNT(id) from `holiday`";
@@ -159,10 +159,10 @@
                          <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
                              <i class="fa fa-chart-bar fa-3x text-primary"></i>
                              <div class="ms-3">
-                                 <p class="mb-2">Student</p>
+                                 <p class="mb-2">Activity</p>
                                  <h6 class="mb-0">
                                  <?php
-                                     $query = "SELECT COUNT(id) from `student`";
+                                     $query = "SELECT COUNT(id) from `activities`";
                                      $result =  mysqli_query($conn,$query);
                                      if (mysqli_num_rows($result)) 
                                        {
