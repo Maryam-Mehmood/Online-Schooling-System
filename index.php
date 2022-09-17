@@ -1,8 +1,7 @@
 <?php
-    $conn = mysqli_connect("localhost","root","","online-school-system");
-    session_start();
-
-    // $_SESSION["role"] = "";
+ $conn = mysqli_connect("localhost","root","","online-school-system");
+ session_start();
+ // $_SESSION["role"] = "";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -18,7 +17,7 @@
      <link rel="icon" type="image" href="images/mimilogo.png">
 
       <!-- Site Metas -->
-     <title>Online Education</title>  
+     <title>My School</title>  
      <meta name="keywords" content="">
      <meta name="description" content="">
      <meta name="author" content="">
@@ -48,7 +47,6 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
      <![endif]-->
-
  </head>
  <body class="host_version">  
      <?php
@@ -65,14 +63,21 @@
 		 </ol>
 		 <div class="carousel-inner" role="listbox">
 		 	 <div class="carousel-item active">
+                 <?php
+                     $query = "SELECT * FROM `slider`";
+                     $result = mysqli_query($conn,$query);
+                     if(mysqli_num_rows($result))
+                       {
+                         while($row = mysqli_fetch_array($result)){                                              
+                    ?> 
 			     <div id="home" class="first-section" style="background-image:url('images/slider-01.jpg');">
 				     <div class="dtab">
 					     <div class="container">
 						     <div class="row">
 							     <div class="col-md-12 col-sm-12 text-right">
 								     <div class="big-tagline">
-									     <h2><strong>SmartEDU </strong> education College</h2>
-										 <p class="lead">With Landigoo responsive landing page template, you can promote your all hosting, domain and email services. </p>
+                                         <h2><strong><?php echo $row[2];?></strong></h2>
+										 <p class="lead"><?php echo $row[3];?></p>
 										 <a href="contact.php" class="hover-btn-new"><span>Contact Us</span></a>
 										 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 										 <a href="about.php" class="hover-btn-new"><span>Read More</span></a>
@@ -82,6 +87,10 @@
 						 </div><!-- end container -->
 					 </div>
 				 </div><!-- end section -->
+                 <?php
+                     }
+                     }
+                    ?>
 			 </div>
 			 <div class="carousel-item">
 			     <div id="home" class="first-section" style="background-image:url('images/slider-02.jpg');">
@@ -199,6 +208,7 @@
 		 </div><!-- end container -->
 	 </div><!-- end section -->
 
+     <!-- HOLIDAY SCHEDULE -->
      <div id="plan" class="section lb">
          <div class="container">
              <div class="section-title text-center">

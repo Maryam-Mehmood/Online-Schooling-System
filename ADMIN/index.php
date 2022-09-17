@@ -1,6 +1,12 @@
 <?php
  session_start();
  $conn = mysqli_connect("localhost","root","","online-school-system");
+ error_reporting(0);
+ if($_SESSION["username"] == null)
+   {
+     header("Location:login.php");
+    }
+ else{
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -37,11 +43,11 @@
  <body>
      <div class="container-fluid position-relative d-flex p-0">
          <!-- Spinner Start -->
-         <div id="spinner" class="show bg-dark position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+         <!-- <div id="spinner" class="show bg-dark position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
              <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
                  <span class="sr-only">Loading...</span>
              </div>
-         </div>
+         </div> -->
          <!-- Spinner End -->
 
          <!-- Sidebar Start -->
@@ -72,7 +78,8 @@
                              <span class="d-none d-lg-inline-flex">My School</span>
                          </a>
                          <div class="dropdown-menu dropdown-menu-end bg-secondary border-0 rounded-0 rounded-bottom m-0">
-                             <a href="signoutA.php" class="dropdown-item">Log Out</a>
+                             <a href="logout.php" class="dropdown-item">Log Out</a>
+                             <a href="../index.php" class="dropdown-item">Go to website</a>
                          </div>
                      </div>
                  </div>
@@ -211,3 +218,6 @@
      <script src="js/main.js"></script>
  </body>
 </html>
+<?php
+ }
+?>

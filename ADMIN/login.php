@@ -6,7 +6,7 @@
 
  <head>
      <meta charset="utf-8">
-     <title>Signin</title>
+     <title>Login</title>
      <meta content="width=device-width, initial-scale=1.0" name="viewport">
      <meta content="" name="keywords">
      <meta content="" name="description">
@@ -34,22 +34,22 @@
      <link href="css/style.css" rel="stylesheet">
  </head>
 
- <body>
+ <body style="background-image: url('img/bk.jpg'); background-repeat: no-repeat; background-size: 100% 100%;">
      <div class="container-fluid position-relative d-flex p-0">
          <!-- Spinner Start -->
-         <div id="spinner" class="show bg-dark position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+         <!-- <div id="spinner" class="show bg-dark position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
              <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
                  <span class="sr-only">Loading...</span>
              </div>
-         </div>
+         </div> -->
          <!-- Spinner End -->
 
          <!-- Sign In Start -->
-         <div class="container-fluid" style="background-color: white;">
+         <div class="container-fluid">
              <div class="row h-100 align-items-center justify-content-center" style="min-height: 100vh;">
                  <div class="col-12 col-sm-8 col-md-6 col-lg-5 col-xl-4">
                      <form action="#" method="POST">
-                         <div class="bg-secondary rounded p-4 p-sm-5 my-4 mx-3">
+                         <div class="bg-white rounded p-4 p-sm-5 my-4 mx-3">
                              <div class="d-flex align-items-center justify-content-between mb-3">
                                  <a href="index.html" class="">
                                      <h3 class="text-primary text-center"><i class="fa fa-user-edit me-2"></i>SmartEDU</h3>
