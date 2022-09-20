@@ -13,7 +13,7 @@
 
  
      <!-- Site Metas -->
-     <title>SmartEDU - Education</title>  
+     <title>Online Education</title>  
      <meta name="keywords" content="">
      <meta name="description" content="">
      <meta name="author" content="">

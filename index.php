@@ -17,7 +17,7 @@
      <link rel="icon" type="image" href="images/mimilogo.png">
 
       <!-- Site Metas -->
-     <title>My School</title>  
+     <title>Online Education</title>  
      <meta name="keywords" content="">
      <meta name="description" content="">
      <meta name="author" content="">
