@@ -169,17 +169,16 @@
      <br>
 
      <div class="container h-100">
-  <div class="row align-middle">
-    <div class="col-md-6 col-lg-4 column">
-      <div class="card gr-1">
-        <div class="txt">
-          <h1>BRANDING AND </br>
-CORPORATE DESIGN</h1>
-          <p>Visual communication and problem-solving</p>
-        </div>
-        <a href="#">more</a>
-        <div class="ico-card">
-        <i class="fa fa-rebel"></i>
+       <div class="row align-middle">
+         <div class="col-md-6 col-lg-4 column">
+           <div class="card gr-1">
+             <div class="txt">
+               <h1>BRANDING AND </br>CORPORATE DESIGN</h1>
+               <p>Visual communication and problem-solving</p>
+             </div>
+             <a href="#">more</a>
+             <div class="ico-card">
+               <i class="fa fa-rebel"></i>
       </div>
       </div>
     </div>
