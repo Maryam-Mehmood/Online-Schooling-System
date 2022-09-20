@@ -51,62 +51,7 @@
  </head>
 
 <style>
-    .img{
-  height:150px;
-  width:100%;
-}
 
-
-
-.card{
-  transition:0.5s;
-  cursor:pointer;
-}
-.card-title{  
-  font-size:15px;
-  transition:1s;
-  cursor:pointer;
-}
-.card-title i{  
-  font-size:15px;
-  transition:1s;
-  cursor:pointer;
-  color:#ffa710
-}
-.card-title i:hover{
-  transform: scale(1.25) rotate(100deg); 
-  color:#18d4ca;
-  
-}
-.card:hover{
-  transform: scale(1.05);
-  box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
-}
-.card-text{
-  height:80px;  
-}
-
-.card::before, .card::after {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  transform: scale3d(0, 0, 1);
-  transition: transform .3s ease-out 0s;
-  background: rgba(255, 255, 255, 0.1);
-  content: '';
-  pointer-events: none;
-}
-.card::before {
-  transform-origin: left top;
-}
-.card::after {
-  transform-origin: right bottom;
-}
-.card:hover::before, .card:hover::after, .card:focus::before, .card:focus::after {
-  transform: scale3d(1, 1, 1);
-}
 </style>
 
  <body class="host_version">  
@@ -137,8 +82,8 @@
 						     <div class="row">
 							     <div class="col-md-12 col-sm-12 text-right">
 								     <div class="big-tagline">
-                                         <h2><strong><?php echo $row[2];?></strong></h2>
-										 <p class="lead"><?php echo $row[3];?></p>
+                                     <h2 data-animation="animated zoomInRight">SmartOnline <strong>education system</strong></h2>
+										 <p class="lead" data-animation="animated fadeInLeft">Today we can do everything online; we can shop online, we can book anything online, we can make payment online, then why not study? Yes, of course we can also study online. </p>
 										 <a href="contact.php" class="hover-btn-new"><span>Contact Us</span></a>
 										 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 										 <a href="about.php" class="hover-btn-new"><span>Read More</span></a>
@@ -160,8 +105,8 @@
 						     <div class="row">
 							     <div class="col-md-12 col-sm-12 text-left">
 								     <div class="big-tagline">
-									     <h2 data-animation="animated zoomInRight">SmartEDU <strong>education school</strong></h2>
-										 <p class="lead" data-animation="animated fadeInLeft">With Landigoo responsive landing page template, you can promote your all hosting, domain and email services. </p>
+									     <h2 data-animation="animated zoomInRight">Students Education <strong>Policy</strong></h2>
+										 <p class="lead" data-animation="animated fadeInLeft">This is a working brief identifying policy recommendations for inclusive educational materials based on the takeaways from prior research described above. </p>
 										 <a href="#" class="hover-btn-new"><span>Contact Us</span></a>
 									     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 										 <a href="#" class="hover-btn-new"><span>Read More</span></a>
@@ -173,16 +118,14 @@
 				 </div><!-- end section -->
 			 </div>
 			 <div class="carousel-item">
-			     <div id="home" class="first-section" style="background-image:url('images/slider-03.jpg');">
+			     <div id="home" class="first-section" style="background-image:url('https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80');">
 				     <div class="dtab">
 					     <div class="container">
 						     <div class="row">
 							     <div class="col-md-12 col-sm-12 text-center">
 								     <div class="big-tagline">
 									     <h2 data-animation="animated zoomInRight"><strong>Find Scholarships </strong>to Finance Your Study</h2>
-										 <p class="lead" data-animation="animated fadeInLeft">1 IP included with each server 
-										     Your Choice of any OS (CentOS, Windows, Debian, Fedora)
-										     FREE Reboots
+										 <p class="lead" data-animation="animated fadeInLeft">MPOWER is proud to offer scholarships for international students to help fund your education and dreams.
                                          </p>
 									     <a href="#" class="hover-btn-new"><span>Contact Us</span></a>
 										 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -275,53 +218,7 @@
 	 </div><!-- end section -->
 
 
-
-     <br>
-     <br>
      
-     <div class="container mt-2">
-<!--   <div class="card card-block mb-2">
-    <h4 class="card-title">Card 1</h4>
-    <p class="card-text">Welcom to bootstrap card styles</p>
-    <a href="#" class="btn btn-primary">Submit</a>
-  </div>   -->
-  <div class="row">
-    <div class="col-md-3 col-sm-6">
-      <div class="card card-block">
-      <h4 class="card-title text-right"><i class=""></i></h4>
-    <img src="https://static.pexels.com/photos/7096/people-woman-coffee-meeting.jpg" alt="Photo of sunset">
-        <h5 class="card-title mt-3 mb-3">Sierra Web Development • Owner</h5>
-        <p class="card-text">This is a company that builds websites, web apps and e-commerce solutions.</p> 
-  </div>
-    </div>
-    <div class="col-md-3 col-sm-6">
-      <div class="card card-block">
-      <h4 class="card-title text-right"><i class=""></i></h4>
-    <img src="https://static.pexels.com/photos/7357/startup-photos.jpg" alt="Photo of sunset">
-        <h5 class="card-title  mt-3 mb-3">ProVyuh</h5>
-        <p class="card-text">This is a company that builds websites, web .</p> 
-  </div>
-    </div>
-    <div class="col-md-3 col-sm-6">
-      <div class="card card-block">
-      <h4 class="card-title text-right"><i class=""></i></h4>
-    <img src="https://static.pexels.com/photos/262550/pexels-photo-262550.jpeg" alt="Photo of sunset">
-        <h5 class="card-title  mt-3 mb-3">ProVyuh</h5>
-        <p class="card-text">This is a company that builds websites, web apps and e-commerce solutions.</p> 
-  </div>
-    </div>
-    <div class="col-md-3 col-sm-6">
-      <div class="card card-block">
-      <h4 class="card-title text-right"><i class=""></i></h4>
-    <img src="https://static.pexels.com/photos/326424/pexels-photo-326424.jpeg" alt="Photo of sunset">
-        <h5 class="card-title  mt-3 mb-3">ProVyuh</h5>
-        <p class="card-text">This is a company that builds websites, web apps and e-commerce solutions.</p> 
-  </div>
-    </div>    
-  </div>
-  
-</div>
-
 
 
 
@@ -384,6 +281,9 @@
              </div><!-- end row -->
          </div><!-- end container -->
      </div><!-- end section -->
+
+
+     
 
      <!-- Activities Start -->
      <div class="parallax section dbcolor">
