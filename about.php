@@ -150,7 +150,7 @@
                  <div class="col-md-12 col-sm-12">
                      <div class="testi-carousel owl-carousel owl-theme">
                          <div class="testimonial clearfix">
-	 					     <div class="testi-meta">
+			                 <div class="testi-meta">
                                  <img src="images/testi_01.png" alt="" class="img-fluid">
                                  <h4>James Fernando </h4>
                              </div>
@@ -161,8 +161,7 @@
                              <!-- end testi-meta -->
                          </div>
                          <!-- end testimonial -->
-                         
- 
+
                          <div class="testimonial clearfix">
 						     <div class="testi-meta">
                                  <img src="images/testi_02.png" alt="" class="img-fluid">
@@ -177,7 +176,7 @@
                          <!-- end testimonial -->
 
                          <div class="testimonial clearfix">
-							 <div class="testi-meta">
+						     <div class="testi-meta">
                                  <img src="images/testi_03.png" alt="" class="img-fluid ">
                                  <h4>Venanda Mercy </h4>
                              </div>

@@ -83,48 +83,278 @@
      </div>
 	 <div id="teachers" class="section wb">
          <div class="container">
-             <div class="">
-	             <div class="">
-					 <div class="our-team">
-						 <h1 class="text-center">Time Table</h1>
-                         <div class="card">
-                             <h5 class="card-header">Grade 1</h5>
-                             <div class="card-body">
-                                 <table class="table">
-                                     <thead>
-                                         <tr>
-                                             <th scope="col">Days</th>
-                                             <th scope="col">1</th>
-                                             <th scope="col">2</th>
-                                             <th scope="col">3</th>
-                                             <th scope="col">4</th>
-                                             <th scope="col"></th>
-                                             <th scope="col">5</th>
-                                             <th scope="col">6</th>
-                                             <th scope="col">7</th>
-                                             <th scope="col">8</th>
-                                         </tr>
-                                     </thead>
-                                     <tbody>
-                                         <tr>
-                                             <th scope="row">Monday</th>
-                                             <td>English</td>
-                                             <td>Urdu</td>
-                                             <td>Maths</td>
-                                             <td>S.st</td>
-                                             <td>Break</td>
-                                             <td>Science</td>
-                                             <td>Islamiat</td>
-                                             <td>Maths</td>
-                                             <td>Maths</td> 
-                                         </tr>
-                                     </tbody>
-                                 </table>
-                             </div>
-                         </div>
-				     </div>
-				 </div>
-             </div><!-- end row -->
+           	 <div class="our-team">
+				 <h1 class="text-center">Time Table</h1>           
+                 <!-- GRADE 1 -->
+                 <div class="card">
+                     <h5 class="card-header">Grade 1</h5>
+                     <div class="card-body">
+                         <table class="table">
+                             <thead>
+                                 <tr>
+                                     <th scope="col">Days</th>
+                                     <th scope="col">1</th>
+                                     <th scope="col">2</th>
+                                     <th scope="col">3</th>
+                                     <th scope="col">4</th>
+                                     <th scope="col"></th>
+                                     <th scope="col">5</th>
+                                     <th scope="col">6</th>
+                                     <th scope="col">7</th>
+                                     <th scope="col">8</th>
+                                 </tr>
+                             </thead>
+                             <tbody>
+                                 <!-- 1 -->
+                                 <tr>
+                                     <th scope="row">Monday</th>
+                                     <td>English</td>
+                                     <td>Urdu</td>
+                                     <td>Maths</td>
+                                     <td>S.st</td>
+                                     <td>Break</td>
+                                     <td>Science</td>
+                                     <td>Islamiat</td>
+                                     <td>Maths</td>
+                                     <td>Maths</td> 
+                                 </tr>
+                                 <!-- 2 -->
+                                 <tr>
+                                     <th scope="row">Tuesday</th>
+                                     <td>English</td>
+                                     <td>Urdu</td>
+                                     <td>Maths</td>
+                                     <td>S.st</td>
+                                     <td>Break</td>
+                                     <td>Science</td>
+                                     <td>Islamiat</td>
+                                     <td>Maths</td>
+                                     <td>Maths</td> 
+                                 </tr>
+                                 <!-- 3 -->
+                                 <tr>
+                                     <th scope="row">Wednesday</th>
+                                     <td>English</td>
+                                     <td>Urdu</td>
+                                     <td>Maths</td>
+                                     <td>S.st</td>
+                                     <td>Break</td>
+                                     <td>Science</td>
+                                     <td>Islamiat</td>
+                                     <td>Maths</td>
+                                     <td>Maths</td> 
+                                 </tr>
+                                 <!-- 4 -->
+                                 <tr>
+                                     <th scope="row">Thursday</th>
+                                     <td>English</td>
+                                     <td>Urdu</td>
+                                     <td>Maths</td>
+                                     <td>S.st</td>
+                                     <td>Break</td>
+                                     <td>Science</td>
+                                     <td>Islamiat</td>
+                                     <td>Maths</td>
+                                     <td>Maths</td> 
+                                 </tr>
+                                 <!-- 5 -->
+                                 <tr>
+                                     <th scope="row">Friday</th>
+                                     <td>English</td>
+                                     <td>Urdu</td>
+                                     <td>Maths</td>
+                                     <td>S.st</td>
+                                     <td>Break</td>
+                                     <td>Science</td>
+                                     <td>Islamiat</td>
+                                     <td>Maths</td>
+                                     <td>Maths</td> 
+                                 </tr>
+                             </tbody>
+                         </table>
+                     </div>
+                 </div>
+                 <br>
+                 <!-- GRADE 2 -->
+                 <div class="card">
+                     <h5 class="card-header">Grade 2</h5>
+                     <div class="card-body">
+                         <table class="table">
+                             <thead>
+                                 <tr>
+                                     <th scope="col">Days</th>
+                                     <th scope="col">1</th>
+                                     <th scope="col">2</th>
+                                     <th scope="col">3</th>
+                                     <th scope="col">4</th>
+                                     <th scope="col"></th>
+                                     <th scope="col">5</th>
+                                     <th scope="col">6</th>
+                                     <th scope="col">7</th>
+                                     <th scope="col">8</th>
+                                 </tr>
+                             </thead>
+                             <tbody>
+                                 <!-- 1 -->
+                                 <tr>
+                                     <th scope="row">Monday</th>
+                                     <td>English</td>
+                                     <td>Urdu</td>
+                                     <td>Maths</td>
+                                     <td>S.st</td>
+                                     <td>Break</td>
+                                     <td>Science</td>
+                                     <td>Islamiat</td>
+                                     <td>Maths</td>
+                                     <td>Maths</td> 
+                                 </tr>
+                                 <!-- 2 -->
+                                 <tr>
+                                     <th scope="row">Tuesday</th>
+                                     <td>English</td>
+                                     <td>Urdu</td>
+                                     <td>Maths</td>
+                                     <td>S.st</td>
+                                     <td>Break</td>
+                                     <td>Science</td>
+                                     <td>Islamiat</td>
+                                     <td>Maths</td>
+                                     <td>Maths</td> 
+                                 </tr>
+                                 <!-- 3 -->
+                                 <tr>
+                                     <th scope="row">Wednesday</th>
+                                     <td>English</td>
+                                     <td>Urdu</td>
+                                     <td>Maths</td>
+                                     <td>S.st</td>
+                                     <td>Break</td>
+                                     <td>Science</td>
+                                     <td>Islamiat</td>
+                                     <td>Maths</td>
+                                     <td>Maths</td> 
+                                 </tr>
+                                 <!-- 4 -->
+                                 <tr>
+                                     <th scope="row">Thursday</th>
+                                     <td>English</td>
+                                     <td>Urdu</td>
+                                     <td>Maths</td>
+                                     <td>S.st</td>
+                                     <td>Break</td>
+                                     <td>Science</td>
+                                     <td>Islamiat</td>
+                                     <td>Maths</td>
+                                     <td>Maths</td> 
+                                 </tr>
+                                 <!-- 5 -->
+                                 <tr>
+                                     <th scope="row">Friday</th>
+                                     <td>English</td>
+                                     <td>Urdu</td>
+                                     <td>Maths</td>
+                                     <td>S.st</td>
+                                     <td>Break</td>
+                                     <td>Science</td>
+                                     <td>Islamiat</td>
+                                     <td>Maths</td>
+                                     <td>Maths</td> 
+                                 </tr>
+                             </tbody>
+                         </table>
+                     </div>
+                 </div>
+                 <br>
+                 <!-- GRADE 3 -->
+                 <div class="card">
+                     <h5 class="card-header">Grade 3</h5>
+                     <div class="card-body">
+                         <table class="table">
+                             <thead>
+                                 <tr>
+                                     <th scope="col">Days</th>
+                                     <th scope="col">1</th>
+                                     <th scope="col">2</th>
+                                     <th scope="col">3</th>
+                                     <th scope="col">4</th>
+                                     <th scope="col"></th>
+                                     <th scope="col">5</th>
+                                     <th scope="col">6</th>
+                                     <th scope="col">7</th>
+                                     <th scope="col">8</th>
+                                 </tr>
+                             </thead>
+                             <tbody>
+                                 <!-- 1 -->
+                                 <tr>
+                                     <th scope="row">Monday</th>
+                                     <td>English</td>
+                                     <td>Urdu</td>
+                                     <td>Maths</td>
+                                     <td>S.st</td>
+                                     <td>Break</td>
+                                     <td>Science</td>
+                                     <td>Islamiat</td>
+                                     <td>Maths</td>
+                                     <td>Maths</td> 
+                                 </tr>
+                                 <!-- 2 -->
+                                 <tr>
+                                     <th scope="row">Tuesday</th>
+                                     <td>English</td>
+                                     <td>Urdu</td>
+                                     <td>Maths</td>
+                                     <td>S.st</td>
+                                     <td>Break</td>
+                                     <td>Science</td>
+                                     <td>Islamiat</td>
+                                     <td>Maths</td>
+                                     <td>Maths</td> 
+                                 </tr>
+                                 <!-- 3 -->
+                                 <tr>
+                                     <th scope="row">Wednesday</th>
+                                     <td>English</td>
+                                     <td>Urdu</td>
+                                     <td>Maths</td>
+                                     <td>S.st</td>
+                                     <td>Break</td>
+                                     <td>Science</td>
+                                     <td>Islamiat</td>
+                                     <td>Maths</td>
+                                     <td>Maths</td> 
+                                 </tr>
+                                 <!-- 4 -->
+                                 <tr>
+                                     <th scope="row">Thursday</th>
+                                     <td>English</td>
+                                     <td>Urdu</td>
+                                     <td>Maths</td>
+                                     <td>S.st</td>
+                                     <td>Break</td>
+                                     <td>Science</td>
+                                     <td>Islamiat</td>
+                                     <td>Maths</td>
+                                     <td>Maths</td> 
+                                 </tr>
+                                 <!-- 5 -->
+                                 <tr>
+                                     <th scope="row">Friday</th>
+                                     <td>English</td>
+                                     <td>Urdu</td>
+                                     <td>Maths</td>
+                                     <td>S.st</td>
+                                     <td>Break</td>
+                                     <td>Science</td>
+                                     <td>Islamiat</td>
+                                     <td>Maths</td>
+                                     <td>Maths</td> 
+                                 </tr>
+                             </tbody>
+                         </table>
+                     </div>
+                 </div>
+			 </div>
          </div><!-- end container -->
      </div><!-- end section -->	
 
