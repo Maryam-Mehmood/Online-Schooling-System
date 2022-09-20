@@ -269,7 +269,6 @@ body {
 		 </div><!-- end container -->
 	 </div><!-- end section -->
 
-<<<<<<< HEAD
  <!-- HOLIDAY SCHEDULE -->
  <div id="plan" class="section lb">
          <div class="container">
@@ -336,7 +335,7 @@ body {
 
 
 
-=======
+
      <br>
      <div class="container mt-2">
 <!--   <div class="card card-block mb-2">
@@ -380,7 +379,7 @@ body {
   </div>
   
 </div>
->>>>>>> 2be58528823671f0697f83dddadb2449a52b8e59
+
 
      <!-- HOLIDAY SCHEDULE -->
      <div id="plan" class="section lb">
