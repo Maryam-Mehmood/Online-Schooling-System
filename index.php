@@ -269,7 +269,7 @@ body {
 		 </div><!-- end container -->
 	 </div><!-- end section -->
 
-<<<<<<< HEAD
+
  <!-- HOLIDAY SCHEDULE -->
  <div id="plan" class="section lb">
          <div class="container">
@@ -336,7 +336,6 @@ body {
 
 
 
-=======
      <br>
      <div class="container mt-2">
 <!--   <div class="card card-block mb-2">
@@ -380,15 +379,111 @@ body {
   </div>
   
 </div>
->>>>>>> 2be58528823671f0697f83dddadb2449a52b8e59
+
+<div id="overviews" class="section lb">
+         <div class="container">
+             <div class="section-title row text-center">
+                 <div class="col-md-8 offset-md-2">
+                     <h3>School Activities</h3>
+                     <p class="lead">The term "school activities" applies to a wide range of skill-based games, strategies and interactive activities that support students' educational development.</p>
+                 </div>
+             </div><!-- end title -->
+        
+             <div class="row align-items-center">
+                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                     <div class="message-box">
+                         <h2>School Library</h2>
+                         <p> A school library is a place where we can find the books we need and have a proper environment
+                             to read books with peace. A library is a place that feeds us knowledge with the help of books.</p>
+                         <p> My school library is huge; it has a total of two rooms, one room has all the shelves or cabinets to store books, and the second room has the facility to sit and read books.
+
+There is a vast collection of books. There are around 15,000 books in my school library. In my school library, different kinds of books are present there, and all of them are arranged in a very well manner.</p>
+ 
+                         <a href="#" class="hover-btn-new orange"><span>Learn More</span></a>
+                     </div><!-- end messagebox -->
+                 </div><!-- end col -->
+				
+			     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                     <div class="post-media wow fadeIn">
+                         <img src="https://kecirohomeschool.com/wp-content/uploads/2018/09/Bookshelves.jpg" alt="" class="img-fluid img-rounded">
+                         <!-- <img src="images/about_02.jpg" alt="" class="img-fluid img-rounded"> -->
+                     </div><!-- end media -->
+                 </div><!-- end col -->
+			 </div>
+			 <div class="row align-items-center">
+			     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                     <div class="post-media wow fadeIn">
+                     <img src="https://thumbs.dreamstime.com/b/education-science-children-concept-kids-test-tubes-studying-chemistry-school-laboratory-kids-test-tubes-studying-148402765.jpg" alt="" class="img-fluid img-rounded">
+                         <!-- <img src="images/about_03.jpg" alt="" class="img-fluid img-rounded"> -->
+                     </div><!-- end media -->
+                 </div><!-- end col -->
+				
+				 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                     <div class="message-box">
+                         <h2>School Science laboratory</h2>
+                         <p>For every student, one of the common excitements of the school days remains associated with the discovery and introduction with the laboratory equipment in school labs. Between standard 5 to 8, students get the knowledge of the basic lab apparatus and get to know about their uses. All of these apparatuses are the pillars of every lab, be it in schools, colleges, research labs, or medical laboratories.</p>
+                         <p> which help them enhance their learning by understanding the theoretical concepts of science which are taught in classrooms.</p>
+
+                         <a href="#" class="hover-btn-new orange"><span>Learn More</span></a>
+                     </div><!-- end messagebox -->
+                 </div><!-- end col -->
+                 <br>
+                 <br>
+
+                 <div class="row align-items-center">
+                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                     <div class="message-box">
+                         <h2>Student Canteen</h2>
+                         <p>Every school has a canteen and it makes it easy for students to get food from these canteens.</p>
+                         <p>Our school also has a canteen. The canteen is very big and could accommodate many students at a time. 
+                            We have a coupon system, where the students who would like to have food from the canteen, would require 
+                            buying coupon for the desired item from the counter during the first short recess of the day in school. </p>
+ 
+                         <a href="#" class="hover-btn-new orange"><span>Learn More</span></a>
+                     </div><!-- end messagebox -->
+                 </div><!-- end col -->
+				
+			     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                     <div class="post-media wow fadeIn">
+                         <img src="https://curlytales.com/wp-content/uploads/2020/07/school-2.jpg" alt="" class="img-fluid img-rounded">
+                         <!-- <img src="images/about_02.jpg" alt="" class="img-fluid img-rounded"> -->
+                     </div><!-- end media -->
+                 </div><!-- end col -->
+			 </div>
+             <div class="row align-items-center">
+			     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                     <div class="post-media wow fadeIn">
+                     <img src="https://farm66.static.flickr.com/65535/50999099810_cc50c81bfc_c.jpg" alt="" class="img-fluid img-rounded">
+                         <!-- <img src="images/about_03.jpg" alt="" class="img-fluid img-rounded"> -->
+                     </div><!-- end media -->
+                 </div><!-- end col -->
+				
+				 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                     <div class="message-box">
+                         <h2>Students Playground</h2>
+                         <p>Today's schools are not only tasked with preparing children for their future careers, but also teaching essential life skills, habits and attitudes that will help them successfully navigate adulthood. To do this and provide the best learning experience for students requires both indoor instruction and outdoor physical activity.</p>
+                         <p> While kids explore school playgrounds they are building important life skills that will eventually help children become effective thinkers, leaders and collaborators. </p>
+
+                         <a href="#" class="hover-btn-new orange"><span>Learn More</span></a>
+                     </div><!-- end messagebox -->
+                 </div><!-- end col -->
+
+             </div><!-- end row -->
+         </div><!-- end container -->
+     </div><!-- end section -->
+
+
+     
 
      <!-- HOLIDAY SCHEDULE -->
-     <div id="plan" class="section lb">
+     <div id="plan" class="section lb" style="background-image:url('https://chytomo.com/wp-content/uploads/2022/03/education-day-assortment-with-copy-space.jpg')" width="100px">
          <div class="container">
-             <div class="section-title text-center">
-                 <h3>Holidays Schedule</h3>
-                 <p>Lorem ipsum dolor sit aet, consectetur adipisicing lit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+             <div class="section-title text-center ">
+                 <h3 style="color:white">Holidays Schedule</h3>
+                 <p style="color:white">Lorem ipsum dolor sit aet, consectetur adipisicing lit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
              </div><!-- end title -->
+
+
 
              <hr class="invis">
 
