@@ -66,7 +66,7 @@
 
              <div class="row">
                  <div>
-                     <div class="contact_form">
+                     <div class="contact_form bg-secondary">
                          <div id="message"></div>
                          <form action="#" method="post">
                              <div class="row row-fluid">

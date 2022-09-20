@@ -68,7 +68,7 @@
 
              <div class="row">
                  <div class="col-xl-6 col-md-12 col-sm-12">
-                     <div class="contact_form">
+                     <div class="contact_form bg-secondary">
                          <div id="message"></div>
                          <form action="#" method="post">
                              <div class="row row-fluid">

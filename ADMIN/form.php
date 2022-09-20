@@ -73,8 +73,8 @@
                              <span class="d-none d-lg-inline-flex">My School</span>
                          </a>
                          <div class="dropdown-menu dropdown-menu-end bg-secondary border-0 rounded-0 rounded-bottom m-0">
-                             <a href="logout.php" class="dropdown-item">Log Out</a>
-                             <a href="../index.php" class="dropdown-item">Go to website</a>
+                             <a href="logout.php" class="dropdown-item text-white">Log Out</a>
+                             <a href="../index.php" class="dropdown-item text-white">Go to website</a>
                          </div>
                      </div>
                  </div>
@@ -82,7 +82,7 @@
              <!-- Navbar End -->
 
              <!-- Form Start -->
-             <div class="container-fluid pt-4 px-4">
+             <div class="container-fluid pt-4 px-4 bg-danger text-white">
                  <div class="row g-4">
                     
                      <!--VOUCHER FORM-->
