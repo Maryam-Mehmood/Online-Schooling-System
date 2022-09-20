@@ -60,30 +60,64 @@
 	 <div id="teachers" class="section wb">
          <div class="container">
              <div class="row">
-	             <div class="col-md-4">
-					 <div class="our-team">
-						 <?php
-                             $query = "SELECT * FROM `teacher`";
-                             $result = mysqli_query($conn,$query);
-                             if(mysqli_num_rows($result))
-                               {
-                                 while($row = mysqli_fetch_array($result)){                                              
-                            ?> 
-						 <div class="team-img">
-							 <img src="images/team-1.jpg">
+                 <div class="col-md-4">
+	          		 <div class="our-team">
+					     <div class="team-img">
+						     <img src="images/t-1.jpg">
+							 <div class="social">
+							     <ul>
+								     <li><a href="#" class="fa fa-facebook"></a></li>
+									 <li><a href="#" class="fa fa-twitter"></a></li>
+									 <li><a href="#" class="fa fa-linkedin"></a></li>
+									 <li><a href="#" class="fa fa-skype"></a></li>
+								 </ul>
+							 </div>
 						 </div>
-					     <div class="team-content">
-						     <h3 class="title"><?php echo $row[2];?></h3>
-                             <span class="post">Qualification: <?php echo $row[6];?></span>
-							 <span class="post">Email: <?php echo $row[3];?></span>
-                             <span class="post">Phone No: <?php echo $row[5];?></span>
-                             <span class="post">Subjects: <?php echo $row[7];?></span>
+						 <div class="team-content">
+						     <h3 class="title">Williamson</h3>
+							 <span class="post">Web Developer</span>
 						 </div>
-						 <?php
-			 				 }
-							 }
-						 ?>
-				     </div>
+					 </div>
+				 </div>
+
+				 <div class="col-md-4">
+				     <div class="our-team">
+					     <div class="team-img">
+						     <img src="images/team-2.jpg">
+							 <div class="social">
+							     <ul>
+								     <li><a href="#" class="fa fa-facebook"></a></li>
+									 <li><a href="#" class="fa fa-twitter"></a></li>
+									 <li><a href="#" class="fa fa-linkedin"></a></li>
+									 <li><a href="#" class="fa fa-skype"></a></li>
+								 </ul>
+							 </div>
+					     </div>
+						 <div class="team-content">
+						     <h3 class="title">Kristiana</h3>
+							 <span class="post">Web Designer</span>
+						 </div>
+					 </div>
+				 </div>
+
+				 <div class="col-md-4">
+				     <div class="our-team">
+					     <div class="team-img">
+						     <img src="images/team-03.png">
+							 <div class="social">
+							     <ul>
+								     <li><a href="#" class="fa fa-facebook"></a></li>
+									 <li><a href="#" class="fa fa-twitter"></a></li>
+									 <li><a href="#" class="fa fa-linkedin"></a></li>
+									 <li><a href="#" class="fa fa-skype"></a></li>
+								 </ul>
+							 </div>
+						 </div>
+						 <div class="team-content">
+						     <h3 class="title">Steve Thomas</h3>
+							 <span class="post">Web Developer</span>
+						 </div>
+					 </div>
 				 </div>
              </div><!-- end row -->
          </div><!-- end container -->
