@@ -42,12 +42,73 @@
 
      <!-- Font Awesome -->
      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js" integrity="sha512-naukR7I+Nk6gp7p5TMA4ycgfxaZBJ7MO5iC3Fp6ySQyKFHOGfpkSZkYVWV5R7u7cfAicxanwYQ5D1e17EfJcMA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
      <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
      <![endif]-->
  </head>
+
+<style>
+    .img{
+  height:150px;
+  width:100%;
+}
+
+
+
+.card{
+  transition:0.5s;
+  cursor:pointer;
+}
+.card-title{  
+  font-size:15px;
+  transition:1s;
+  cursor:pointer;
+}
+.card-title i{  
+  font-size:15px;
+  transition:1s;
+  cursor:pointer;
+  color:#ffa710
+}
+.card-title i:hover{
+  transform: scale(1.25) rotate(100deg); 
+  color:#18d4ca;
+  
+}
+.card:hover{
+  transform: scale(1.05);
+  box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
+}
+.card-text{
+  height:80px;  
+}
+
+.card::before, .card::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: scale3d(0, 0, 1);
+  transition: transform .3s ease-out 0s;
+  background: rgba(255, 255, 255, 0.1);
+  content: '';
+  pointer-events: none;
+}
+.card::before {
+  transform-origin: left top;
+}
+.card::after {
+  transform-origin: right bottom;
+}
+.card:hover::before, .card:hover::after, .card:focus::before, .card:focus::after {
+  transform: scale3d(1, 1, 1);
+}
+</style>
+
  <body class="host_version">  
      <?php
      include_once("nav.php");
@@ -70,7 +131,7 @@
                        {
                          while($row = mysqli_fetch_array($result)){                                              
                     ?> 
-			     <div id="home" class="first-section" style="background-image:url('images/slider-01.jpg');">
+			     <div id="home" class="first-section" style="background-image:url('https://e-file.huawei.com/-/media/EBG/Images/SolutionV2/industry/education/solution-01-v3.jpg');">
 				     <div class="dtab">
 					     <div class="container">
 						     <div class="row">
@@ -147,6 +208,11 @@
 		 </div>
 	 </div>
 	 <!-- Slider End -->
+
+
+
+
+     
     
 	 <div class="section cl">
 	     <div class="container">
@@ -207,6 +273,57 @@
 			 </div><!-- end row -->
 		 </div><!-- end container -->
 	 </div><!-- end section -->
+
+
+
+     <br>
+     <br>
+     
+     <div class="container mt-2">
+<!--   <div class="card card-block mb-2">
+    <h4 class="card-title">Card 1</h4>
+    <p class="card-text">Welcom to bootstrap card styles</p>
+    <a href="#" class="btn btn-primary">Submit</a>
+  </div>   -->
+  <div class="row">
+    <div class="col-md-3 col-sm-6">
+      <div class="card card-block">
+      <h4 class="card-title text-right"><i class=""></i></h4>
+    <img src="https://static.pexels.com/photos/7096/people-woman-coffee-meeting.jpg" alt="Photo of sunset">
+        <h5 class="card-title mt-3 mb-3">Sierra Web Development • Owner</h5>
+        <p class="card-text">This is a company that builds websites, web apps and e-commerce solutions.</p> 
+  </div>
+    </div>
+    <div class="col-md-3 col-sm-6">
+      <div class="card card-block">
+      <h4 class="card-title text-right"><i class=""></i></h4>
+    <img src="https://static.pexels.com/photos/7357/startup-photos.jpg" alt="Photo of sunset">
+        <h5 class="card-title  mt-3 mb-3">ProVyuh</h5>
+        <p class="card-text">This is a company that builds websites, web .</p> 
+  </div>
+    </div>
+    <div class="col-md-3 col-sm-6">
+      <div class="card card-block">
+      <h4 class="card-title text-right"><i class=""></i></h4>
+    <img src="https://static.pexels.com/photos/262550/pexels-photo-262550.jpeg" alt="Photo of sunset">
+        <h5 class="card-title  mt-3 mb-3">ProVyuh</h5>
+        <p class="card-text">This is a company that builds websites, web apps and e-commerce solutions.</p> 
+  </div>
+    </div>
+    <div class="col-md-3 col-sm-6">
+      <div class="card card-block">
+      <h4 class="card-title text-right"><i class=""></i></h4>
+    <img src="https://static.pexels.com/photos/326424/pexels-photo-326424.jpeg" alt="Photo of sunset">
+        <h5 class="card-title  mt-3 mb-3">ProVyuh</h5>
+        <p class="card-text">This is a company that builds websites, web apps and e-commerce solutions.</p> 
+  </div>
+    </div>    
+  </div>
+  
+</div>
+
+
+
 
      <!-- HOLIDAY SCHEDULE -->
      <div id="plan" class="section lb">

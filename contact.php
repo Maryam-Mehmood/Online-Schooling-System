@@ -56,6 +56,8 @@
 	 	  	 <h1>Contact<span class="m_1">Lorem Ipsum dolroin gravida nibh vel velit.</span></h1>
 	     </div>
      </div>
+
+     
 	
      <div id="contact" class="section wb">
          <div class="container">

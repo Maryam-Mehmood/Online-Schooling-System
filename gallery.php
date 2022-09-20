@@ -42,40 +42,112 @@
    <![endif]-->
  </head>
  <style>
-   body {
-   padding: 2em;
-  }
- .card {
-   border: none;
- }
- img,
- .card-img-top {
-   border-radius: 0em;
- }
+  
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500,700');
 
- @media (min-width: 576px) {
-  .card-columns {
-    column-count: 2;
-  }
- }
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
 
- @media (min-width: 768px) {
-  .card-columns {
-    column-count: 3;
-  }
- }
 
- @media (min-width: 992px) {
-  .card-columns {
-    column-count: 4;
-  }
- }
 
- @media (min-width: 1200px) {
-  .card-columns {
-    column-count: 5;
+.gr-1{background: $gr-1;}
+.gr-2{background: $gr-2;}
+.gr-3{background: $gr-3;}
+
+*{transition: .5s;}
+
+.h-100{height: 100vh !important;}
+.align-middle{
+  position: relative;
+  top:50%;
+  transform:translateY(-50%);
+}
+
+.column{
+  margin-top:3rem;
+  padding-left:3rem;
+  &:hover{
+    padding-left:0;
+    .card .txt{
+      margin-left:1rem;
+      h1, p{
+        color:rgba(255,255,255,1);
+        opacity:1;
+      }
+    }
+    a{
+      color:rgba(255,255,255,1);
+      &:after{
+      width: 10%;
+      }
+    }
   }
- }
+}
+.card{
+  min-height:170px;
+  margin: 0;
+  padding: 1.7rem 1.2rem;
+  border: none;
+  border-radius: 0;
+  color:rgba(0,0,0,1);
+  letter-spacing: .05rem;
+  font-family: 'Oswald', sans-serif;
+  box-shadow: 0 0 21px rgba(0,0,0,.27);
+  .txt{
+    margin-left:-3rem;
+    z-index: 1;
+    h1{
+      font-size:1.5rem;
+      font-weight: 300;
+      text-transform: uppercase;
+    }
+    p{
+      font-size:.7rem;
+      font-family: 'Open Sans', sans-serif;
+      letter-spacing: 0rem;
+      margin-top:33px;
+      opacity:0;
+      color:rgba(255,255,255,1);
+    }
+  }
+  a{
+    z-index:3;
+    font-size: .7rem;
+    color:rgba(0,0,0,1);
+    margin-left:1rem;
+    position:relative;
+    bottom: -.5rem;
+    text-transform: uppercase;
+    &:after {
+      content:"";
+      display: inline-block;
+      height: 0.5em;
+      width: 0;
+      margin-right: -100%;
+      margin-left: 10px;
+      border-top: 1px solid rgba(255,255,255,1);
+      transition: .5s;
+    }
+  }
+  .ico-card{
+    position:absolute;
+    top: 0;
+    left:0;
+    bottom:0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  i{
+    position: relative;
+    right: -50%;
+    top:60%;
+    font-size: 12rem;
+    line-height: 0;
+    opacity: .2;
+    color:rgba(255,255,255,1);
+    z-index: 0;
+   }
 
  </style>
 
@@ -92,74 +164,56 @@
 		 </div>
 	 </div>
 
+   
+    
      <br>
-     <br>
-     <div class="container">
-  <div class="card-columns">
-    <div class="card "> <img class="card-img-top" src="	https://placeimg.com/640/200/tech/1	" alt="Card image cap"> </div>
-    <div class="card "> <img class="card-img-top" src="	https://placeimg.com/400/480/tech/2	" alt="Card image cap"> </div>
-    <div class="card "> <img class="card-img-top" src="	https://placeimg.com/640/480/tech/3	" alt="Card image cap"> </div>
-    <div class="card "> <img class="card-img-top" src="	https://placeimg.com/500/300/tech/4	" alt="Card image cap"> </div>
-    <div class="card "> <img class="card-img-top" src="	https://placeimg.com/400/480/tech/5	" alt="Card image cap"> </div>
-    <div class="card "> <img class="card-img-top" src="	https://placeimg.com/640/200/tech/6" alt="Card image cap"> </div>
-    <div class="card "> <img class="card-img-top" src="	https://placeimg.com/600/500/tech/7" alt="Card image cap"> </div>
-    <div class="card "> <img class="card-img-top" src="	https://placeimg.com/600/500/tech/8" alt="Card image cap"> </div>
-    <div class="card "> <img class="card-img-top" src="	https://placeimg.com/200/450/tech/20" alt="Card image cap"> </div>
-    <div class="card "> <img class="card-img-top" src="	https://placeimg.com/640/480/tech/10" alt="Card image cap"> </div>
-    <div class="card "> <img class="card-img-top" src="	https://placeimg.com/640/480/tech/11" alt="Card image cap"> </div>
-    <div class="card "> <img class="card-img-top" src="	https://placeimg.com/200/400/tech/12" alt="Card image cap"> </div>
-    <div class="card "> <img class="card-img-top" src="	https://placeimg.com/640/480/tech/21" alt="Card image cap"> </div>
-    <div class="card "> <img class="card-img-top" src="	https://placeimg.com/640/480/tech/14" alt="Card image cap"> </div>
-    <div class="card "> <img class="card-img-top" src="	https://placeimg.com/400/200/tech/15" alt="Card image cap"> </div>
-    <div class="card "> <img class="card-img-top" src="	https://placeimg.com/300/300/tech/16" alt="Card image cap"> </div>
-    <div class="card "> <img class="card-img-top" src="	https://placeimg.com/300/300/tech/17" alt="Card image cap"> </div>
-    <div class="card "> <img class="card-img-top" src="	https://placeimg.com/400/480/tech/18" alt="Card image cap"> </div>
-    <div class="card "> <img class="card-img-top" src="	https://placeimg.com/300/400/tech/19" alt="Card image cap"> </div>
-    <div class="card "> <img class="card-img-top" src="	https://placeimg.com/400/300/tech/20" alt="Card image cap"> </div>
 
+     <div class="container h-100">
+  <div class="row align-middle">
+    <div class="col-md-6 col-lg-4 column">
+      <div class="card gr-1">
+        <div class="txt">
+          <h1>BRANDING AND </br>
+CORPORATE DESIGN</h1>
+          <p>Visual communication and problem-solving</p>
+        </div>
+        <a href="#">more</a>
+        <div class="ico-card">
+        <i class="fa fa-rebel"></i>
+      </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-4 column">
+      <div class="card gr-2">
+        <div class="txt">
+          <h1>Web Front-End </br>
+SOLUTIONS</h1>
+          <p>How design is implemented on the web.</p>
+        </div>
+        <a href="#">more</a>
+      <div class="ico-card">
+        <i class="fa fa-codepen"></i>
+      </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-4 column">
+      <div class="card gr-3">
+        <div class="txt">
+          <h1>UX/UI WEBsite </br>AND MOBILE app</h1>
+          <p>User Interface and User Experience Design.</p>
+        </div>
+        <a href="#">more</a>
+      <div class="ico-card">
+        <i class="fa fa-empire"></i>
+      </div>
+      </div>
+    </div>
+    
   </div>
 </div>
-
-
+    
 
 	
-	 <div id="teachers" class="section wb">
-         <div class="container">
-             <div class="row">
-	             <div class="col-md-4">
-					 <div class="our-team">
-						 <?php
-                             $query = "SELECT * FROM `teacher`";
-                             $result = mysqli_query($conn,$query);
-                             if(mysqli_num_rows($result))
-                               {
-                                 while($row = mysqli_fetch_array($result)){                                              
-                            ?> 
-						 <div class="team-img">
-							 <img src="images/team-1.jpg">
-						 </div>
-					     <div class="team-content">
-						     <h3 class="title"><?php echo $row[2];?></h3>
-                             <span class="post">Qualification: <?php echo $row[6];?></span>
-							 <span class="post">Email: <?php echo $row[3];?></span>
-                             <span class="post">Phone No: <?php echo $row[5];?></span>
-                             <span class="post">Subjects: <?php echo $row[7];?></span>
-						 </div>
-						 <?php
-			 				 }
-								}
-						 ?>
-				     </div>
-				 </div>
-             </div><!-- end row -->
-         </div><!-- end container -->
-     </div><!-- end section -->	
-
-    
-     
-
-
-
 
      <div class="parallax section dbcolor">
          <div class="container"> 
