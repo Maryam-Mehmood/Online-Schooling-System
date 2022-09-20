@@ -179,7 +179,54 @@
                 </div>
              </div>
              <!-- Sale & Revenue End -->
- 
+
+             <!-- Table Start -->
+             <div class="container-fluid pt-4 px-4">
+                 <div class="row g-4">  
+                     <!--Login TABLE-->
+                     <div class="col-12">
+                         <div class="bg-secondary rounded h-100 p-4">
+                             <h2 class="mb-4 text-center">Login Members</h2>
+                             <a href="#" class="btn btn-primary mb-2">Add New</a>
+                             <table class="table table-hover table-dark">
+                                 <thead>
+                                     <tr>
+                                         <th scope="col">#</th>
+                                         <th scope="col">User Name</th>
+                                         <th scope="col">Email</th>
+                                         <th scope="col">Password</th>
+                                         <th scope="col">Edit</th>
+                                         <th scope="col">Delete</th>
+                                     </tr>
+                                 </thead>
+                                 <tbody>
+                                     <?php
+                                         $query = "SELECT * FROM `student`";
+                                         $result = mysqli_query($conn,$query);
+                                         if(mysqli_num_rows($result))
+                                           {
+                                             while($row = mysqli_fetch_array($result)){                                              
+                                        ?>     
+                                     <tr>
+                                         <th scope="row"><?php echo $row[0];?></th>
+                                         <td><?php echo $row[1];?></td>
+                                         <td><?php echo $row[2];?></td>
+                                         <td><?php echo $row[3];?></td>
+                                         <td><a href="Sl-edit.php?id=<?php echo $row[0]?>" class="btn btn-success">Edit</a></td>
+                                         <td><a href="delete.php?id=<?php echo $row[0]?>" class="btn btn-danger">Delete</a></td>
+                                     </tr>
+                                     <?php
+                                           }
+                                           }
+                                     ?>
+                                 </tbody>
+                             </table>
+                         </div>
+                     </div>    
+                     </div>
+             </div>
+             <!-- Table End -->
+
              <!-- Footer Start -->
              <div class="container-fluid pt-4 px-4">
                  <div class="bg-secondary rounded-top p-4">

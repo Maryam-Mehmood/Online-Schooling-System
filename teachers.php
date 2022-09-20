@@ -13,7 +13,7 @@
      <meta name="viewport" content="width=device-width, initial-scale=1">
  
      <!-- Site Metas -->
-     <title>SmartEDU - Education</title>  
+     <title>My School</title>  
      <meta name="keywords" content="">
      <meta name="description" content="">
      <meta name="author" content="">
@@ -78,7 +78,7 @@
 						 </div>
 						 <?php
 			 				 }
-								}
+							 }
 						 ?>
 				     </div>
 				 </div>
@@ -86,19 +86,7 @@
          </div><!-- end container -->
      </div><!-- end section -->	
 
-    
-     
-
-
-
-
-     <div class="parallax section dbcolor">
-         <div class="container"> 
-         </div><!-- end container -->
-     </div><!-- end section -->
-
-
-   <?php
+     <?php
          include_once("footer.php");
         ?>
 	 
