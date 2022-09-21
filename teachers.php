@@ -63,7 +63,7 @@
                  <div class="col-md-3">
 	          		 <div class="our-team">
 					     <div class="team-img">
-						     <img src="images/team-2.jpg">
+						     <img src="https://media.istockphoto.com/photos/portrait-of-a-happy-latin-american-teacher-at-the-school-picture-id687830554?k=20&m=687830554&s=612x612&w=0&h=mwUu8oSPaIbhg6bnr0DCRJBQuNzfLQ33zpMsMkOus20=">
 							 <div class="social">
 							     <ul>
 								     <li><a href="#" class="fa fa-facebook"></a></li>
@@ -83,7 +83,7 @@
 				 <div class="col-md-3">
 				     <div class="our-team">
 					     <div class="team-img">
-						     <img src="images/team-3.jpg">
+						     <img src="https://media.istockphoto.com/photos/confident-hispanic-private-school-teacher-in-classroom-picture-id922939816?k=20&m=922939816&s=612x612&w=0&h=10lqGbxgIGU9jT59YKD4J7Z76JrOb6jyc8IhS3Xg-LM=">
 							 <div class="social">
 							     <ul>
 								     <li><a href="#" class="fa fa-facebook"></a></li>
@@ -103,7 +103,7 @@
 				 <div class="col-md-3">
 				     <div class="our-team">
 					     <div class="team-img">
-						     <img src="images/team-1.jpg">
+						     <img src="https://media.istockphoto.com/photos/portrait-of-pretty-charming-cute-clever-stylish-girl-in-striped-and-picture-id966215290?k=20&m=966215290&s=612x612&w=0&h=q5Imn9jIs3pSxg-IYzAwyBCSt0ZNUxDdiBP8EKLPGgQ=">
 							 <div class="social">
 							     <ul>
 								     <li><a href="#" class="fa fa-facebook"></a></li>
@@ -123,7 +123,7 @@
 				 <div class="col-md-3">
 	          		 <div class="our-team">
 					     <div class="team-img">
-						     <img src="images/team-4.jpg">
+						     <img src="https://media.istockphoto.com/photos/portrait-of-smart-educated-girl-with-beaming-smile-in-denim-outfit-picture-id1009508530?k=20&m=1009508530&s=612x612&w=0&h=fFXbxcC5I8Hbt2hPi7xYt2BpULqORvcFFiVjWlp1qBs=">
 							 <div class="social">
 							     <ul>
 								     <li><a href="#" class="fa fa-facebook"></a></li>
@@ -144,7 +144,7 @@
                  <div class="col-md-3">
 	          		 <div class="our-team">
 					     <div class="team-img">
-						     <img src="images/team-2.jpg">
+						     <img src="https://media.istockphoto.com/photos/portrait-of-pretty-charming-cute-clever-stylish-girl-in-striped-and-picture-id966215290?k=20&m=966215290&s=612x612&w=0&h=q5Imn9jIs3pSxg-IYzAwyBCSt0ZNUxDdiBP8EKLPGgQ=">
 							 <div class="social">
 							     <ul>
 								     <li><a href="#" class="fa fa-facebook"></a></li>
@@ -164,7 +164,7 @@
 				 <div class="col-md-3">
 				     <div class="our-team">
 					     <div class="team-img">
-						     <img src="images/team-3.jpg">
+						     <img src="https://media.istockphoto.com/photos/confident-high-school-chemistry-teacher-picture-id653787168?k=20&m=653787168&s=612x612&w=0&h=DcIRSLGFc5eyZEYOJCFnXBT6XnBP4IQ5l91dcdHg8uA=">
 							 <div class="social">
 							     <ul>
 								     <li><a href="#" class="fa fa-facebook"></a></li>
@@ -184,7 +184,7 @@
 				 <div class="col-md-3">
 				     <div class="our-team">
 					     <div class="team-img">
-						     <img src="images/team-1.jpg">
+						     <img src="https://img.freepik.com/premium-photo/smiley-teacher-standing-classroom_23-2148668557.jpg?w=2000">
 							 <div class="social">
 							     <ul>
 								     <li><a href="#" class="fa fa-facebook"></a></li>
@@ -204,7 +204,7 @@
 				 <div class="col-md-3">
 	          		 <div class="our-team">
 					     <div class="team-img">
-						     <img src="images/team-1.jpg">
+						     <img src="https://media.istockphoto.com/photos/portrait-of-a-happy-latin-american-teacher-at-the-school-picture-id687830554?k=20&m=687830554&s=612x612&w=0&h=mwUu8oSPaIbhg6bnr0DCRJBQuNzfLQ33zpMsMkOus20=">
 							 <div class="social">
 							     <ul>
 								     <li><a href="#" class="fa fa-facebook"></a></li>
