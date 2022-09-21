@@ -262,121 +262,114 @@
 	 </div><!-- end section -->
 
 
- <!-- HOLIDAY SCHEDULE -->
- <div id="plan" class="section lb">
+     <!-- HOLIDAY SCHEDULE -->
+     <div id="plan" class="section lb">
          <div class="container">
              <div class="section-title text-center">
                  <h3>School principals</h3>
-                 <p>School principals are the link between teachers, students and their parents or guardians, the education system and the wider community.  </p>
-             
-  <!-- Card Start -->
-  <div class="card">
-    <div class="row ">
-
-      <div class="col-md-7 px-3">
-        <div class="card-block px-6">
-          <h1 class="card-title text-left"><b>Teaching staff</b> </h1>
-          <p class="card-text text-left">
-      Teaching staff refer to professional personnel directly involved in teaching students, including classroom teachers; special education teachers; and other teachers who work with students as a whole class in a classroom, 
-            in small groups in a resource room, or in one-to-one teaching inside or outside a regular classroom.</p>
-          <br>
-          <a href="#" class="mt-auto btn btn-warning">Read More</a>
-        </div>
-      </div>
-      <!-- Carousel start -->
-      <div class="col-md-5">
-        <div id="CarouselTest" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#CarouselTest" data-slide-to="0" class="active"></li>
-            <li data-target="#CarouselTest" data-slide-to="1"></li>
-            <li data-target="#CarouselTest" data-slide-to="2"></li>
-
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img class="d-block" src="https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2015/9/1/1441131168821/b3d3ceba-4b86-4ff7-b9f0-a1e913f8f5f0-2060x1236.jpeg?width=620&quality=85&fit=max&s=e0a0a71127de6373af8752015d6f96d2" width="600px" height="350px" alt="">
-            </div>
-            <div class="carousel-item">
-              <img class="d-block" src="https://www.gannett-cdn.com/-mm-/84de89d94c58e3446288642c313aba4eab6b8f24/c=0-102-2000-1232/local/-/media/2015/11/19/WIGroup/FondduLac/635835504969164934-FON-111915-nfdl-4.jpg?width=2000&height=1130&fit=crop&format=pjpg&auto=webp" width="600px" height="350px" alt="">
-            </div>
-            <div class="carousel-item">
-              <img class="d-block" src="https://www.payscale.com/wp-content/uploads/2021/10/teacher.jpg" width="600px" height="350px" alt="">
-            </div>
-            <a class="carousel-control-prev" href="#CarouselTest" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-            <a class="carousel-control-next" href="#CarouselTest" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-          </div>
-        </div>
-      </div>
-      <!-- End of carousel -->
-    </div>
-  </div>
-  <!-- End of card -->
-  </div><!-- end title -->
-</div>
-
- <div id="overviews" class="section lb">
-         <div class="container">
-             <div class="section-title row text-center">
-                 <div class="col-md-8 offset-md-2">
-                     <h3>School Activities</h3>
-                     <p class="lead">The term "school activities" applies to a wide range of skill-based games, strategies and interactive activities that support students' educational development.</p>
+                 <p>School principals are the link between teachers, students and their parents or guardians, the education system and the wider community.  </p>             
+                 <!-- Card Start -->
+                 <div class="card">
+                     <div class="row ">
+                         <div class="col-md-7 px-3">
+                             <div class="card-block px-6">
+                                 <h1 class="card-title text-left"><b>Teaching staff</b> </h1>
+                                 <p class="card-text text-left">Teaching staff refer to professional personnel directly involved in teaching students, including classroom teachers; special education teachers; and other teachers who work with students as a whole class in a classroom, 
+                                 in small groups in a resource room, or in one-to-one teaching inside or outside a regular classroom.</p>
+                                 <br>
+                                 <a href="#" class="mt-auto btn btn-warning">Read More</a>
+                             </div>
+                         </div>
+                         <!-- Carousel start -->
+                         <div class="col-md-5">
+                             <div id="CarouselTest" class="carousel slide" data-ride="carousel">
+                                 <ol class="carousel-indicators">
+                                     <li data-target="#CarouselTest" data-slide-to="0" class="active"></li>
+                                     <li data-target="#CarouselTest" data-slide-to="1"></li>
+                                     <li data-target="#CarouselTest" data-slide-to="2"></li>
+                                 </ol>
+                                 <div class="carousel-inner">
+                                     <div class="carousel-item active">
+                                         <img class="d-block" src="https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2015/9/1/1441131168821/b3d3ceba-4b86-4ff7-b9f0-a1e913f8f5f0-2060x1236.jpeg?width=620&quality=85&fit=max&s=e0a0a71127de6373af8752015d6f96d2" width="600px" height="350px" alt="">
+                                     </div>
+                                     <div class="carousel-item">
+                                         <img class="d-block" src="https://www.gannett-cdn.com/-mm-/84de89d94c58e3446288642c313aba4eab6b8f24/c=0-102-2000-1232/local/-/media/2015/11/19/WIGroup/FondduLac/635835504969164934-FON-111915-nfdl-4.jpg?width=2000&height=1130&fit=crop&format=pjpg&auto=webp" width="600px" height="350px" alt="">
+                                     </div>
+                                     <div class="carousel-item">
+                                         <img class="d-block" src="https://www.payscale.com/wp-content/uploads/2021/10/teacher.jpg" width="600px" height="350px" alt="">
+                                     </div>
+                                     <a class="carousel-control-prev" href="#CarouselTest" role="button" data-slide="prev">
+                                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                         <span class="sr-only">Previous</span>
+                                     </a>
+                                     <a class="carousel-control-next" href="#CarouselTest" role="button" data-slide="next">
+                                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                         <span class="sr-only">Next</span>
+                                     </a>
+                                 </div>
+                             </div>
+                         </div>
+                         <!-- End of carousel -->
+                     </div>
                  </div>
+                 <!-- End of card -->
              </div><!-- end title -->
+         </div>
+
+         <div id="overviews" class="section lb">
+             <div class="container">
+                 <div class="section-title row text-center">
+                     <div class="col-md-8 offset-md-2">
+                         <h3>School Activities</h3>
+                         <p class="lead">The term "school activities" applies to a wide range of skill-based games, strategies and interactive activities that support students' educational development.</p>
+                     </div>
+                 </div><!-- end title -->
         
-             <div class="row align-items-center">
-                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
-                     <div class="message-box">
-                         <h2>School Library</h2>
-                         <p> A school library is a place where we can find the books we need and have a proper environment
-                             to read books with peace. A library is a place that feeds us knowledge with the help of books.</p>
-                         <p> My school library is huge; it has a total of two rooms, one room has all the shelves or cabinets to store books, and the second room has the facility to sit and read books.
-
- There is a vast collection of books. There are around 15,000 books in my school library. In my school library, different kinds of books are present there, and all of them are arranged in a very well manner.</p>
- 
-                         <a href="#" class="hover-btn-new orange"><span>Learn More</span></a>
-                     </div><!-- end messagebox -->
-                 </div><!-- end col -->
-				
-			     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
-                     <div class="post-media wow fadeIn">
-                         <img src="https://kecirohomeschool.com/wp-content/uploads/2018/09/Bookshelves.jpg" alt="" class="img-fluid img-rounded">
-                         <!-- <img src="images/about_02.jpg" alt="" class="img-fluid img-rounded"> -->
-                     </div><!-- end media -->
-                 </div><!-- end col -->
-			 </div>
-			 <div class="row align-items-center">
-			     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
-                     <div class="post-media wow fadeIn">
-                     <img src="https://thumbs.dreamstime.com/b/education-science-children-concept-kids-test-tubes-studying-chemistry-school-laboratory-kids-test-tubes-studying-148402765.jpg" alt="" class="img-fluid img-rounded">
-                         <!-- <img src="images/about_03.jpg" alt="" class="img-fluid img-rounded"> -->
-                     </div><!-- end media -->
-                 </div><!-- end col -->
-				
-				 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
-                     <div class="message-box">
-                         <h2>School Science laboratory</h2>
-                         <p>For every student, one of the common excitements of the school days remains associated with the discovery and introduction with the laboratory equipment in school labs. Between standard 5 to 8, students get the knowledge of the basic lab apparatus and get to know about their uses. All of these apparatuses are the pillars of every lab, be it in schools, colleges, research labs, or medical laboratories.</p>
-                         <p> which help them enhance their learning by understanding the theoretical concepts of science which are taught in classrooms.</p>
-
-                         <a href="#" class="hover-btn-new orange"><span>Learn More</span></a>
-                     </div><!-- end messagebox -->
-                 </div><!-- end col -->
-                 <br>
-                 <br>
-
                  <div class="row align-items-center">
-                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
-                     <div class="message-box">
-                         <h2>Student Canteen</h2>
-                         <p>Every school has a canteen and it makes it easy for students to get food from these canteens.</p>
-                         <p>Our school also has a canteen. The canteen is very big and could accommodate many students at a time. 
-                            We have a coupon system, where the students who would like to have food from the canteen, would require 
+                     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                         <div class="message-box">
+                             <h2>School Library</h2>
+                             <p> A school library is a place where we can find the books we need and have a proper environment
+                             to read books with peace. A library is a place that feeds us knowledge with the help of books.</p>
+                             <p> My school library is huge; it has a total of two rooms, one room has all the shelves or cabinets to store books, and the second room has the facility to sit and read books.
+                             <p> There is a vast collection of books. There are around 15,000 books in my school library. In my school library, different kinds of books are present there, and all of them are arranged in a very well manner.</p>
+                             <a href="#" class="hover-btn-new orange"><span>Learn More</span></a>
+                         </div><!-- end messagebox -->
+                     </div><!-- end col -->
+				
+			         <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                         <div class="post-media wow fadeIn">
+                             <img src="https://kecirohomeschool.com/wp-content/uploads/2018/09/Bookshelves.jpg" alt="" class="img-fluid img-rounded">
+                             <!-- <img src="images/about_02.jpg" alt="" class="img-fluid img-rounded"> -->
+                         </div><!-- end media -->
+                     </div><!-- end col -->
+			     </div>
+			     <div class="row align-items-center">
+			         <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                         <div class="post-media wow fadeIn">
+                             <img src="https://thumbs.dreamstime.com/b/education-science-children-concept-kids-test-tubes-studying-chemistry-school-laboratory-kids-test-tubes-studying-148402765.jpg" alt="" class="img-fluid img-rounded">
+                             <!-- <img src="images/about_03.jpg" alt="" class="img-fluid img-rounded"> -->
+                         </div><!-- end media -->
+                     </div><!-- end col -->
+				
+				     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                         <div class="message-box">
+                             <h2>School Science laboratory</h2>
+                             <p>For every student, one of the common excitements of the school days remains associated with the discovery and introduction with the laboratory equipment in school labs. Between standard 5 to 8, students get the knowledge of the basic lab apparatus and get to know about their uses. All of these apparatuses are the pillars of every lab, be it in schools, colleges, research labs, or medical laboratories.</p>
+                             <p> which help them enhance their learning by understanding the theoretical concepts of science which are taught in classrooms.</p>
+                             <a href="#" class="hover-btn-new orange"><span>Learn More</span></a>
+                         </div><!-- end messagebox -->
+                     </div><!-- end col -->
+                     <br>
+                     <br>
+
+                     <div class="row align-items-center">
+                         <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                             <div class="message-box">
+                                 <h2>Student Canteen</h2>
+                                 <p>Every school has a canteen and it makes it easy for students to get food from these canteens.</p>
+                                 <p>Our school also has a canteen. The canteen is very big and could accommodate many students at a time. 
+                                  We have a coupon system, where the students who would like to have food from the canteen, would require 
                             buying coupon for the desired item from the counter during the first short recess of the day in school. </p>
  
                          <a href="#" class="hover-btn-new orange"><span>Learn More</span></a>
@@ -481,10 +474,11 @@
          <div class="container">
          </div><!-- end container -->
      </div><!-- end section -->
-         
+
      <?php
      include_once("footer.php");
      ?>
+	 
 
      <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
 
@@ -492,5 +486,6 @@
      <script src="js/all.js"></script>
      <!-- ALL PLUGINS -->
      <script src="js/custom.js"></script>
- </body>
+
+</body>
 </html>
