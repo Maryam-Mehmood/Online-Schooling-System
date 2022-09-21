@@ -50,61 +50,57 @@
      <![endif]-->
  </head>
 
-<style>
-body {
-  background-color:  #eee;
-}
-.title {
+ <style>
+     body {
+      background-color:  #eee;
+        }
+     .title {
  
-    margin-bottom: 50px;
-    text-transform: uppercase;
-}
+     margin-bottom: 50px;
+     text-transform: uppercase;
+     }
 
-.card-block {
-    font-size: 1em;
-    position: relative;
-    margin: 0;
-    padding: 1em;
-    border: none;
-    border-top: 1px solid rgba(34, 36, 38, .1);
-    box-shadow: none;
+     .card-block {
+     font-size: 1em;
+     position: relative;
+     margin: 0;
+     padding: 1em;
+     border: none;
+     border-top: 1px solid rgba(34, 36, 38, .1);
+     box-shadow: none;
      
-}
-.card {
-    font-size: 1em;
-    overflow: hidden;
-    padding: 5;
-    border: none;
-    border-radius: .28571429rem;
-    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
-    margin-top:20px;
-}
-
-.carousel-indicators li {
-    border-radius: 12px;
-    width: 12px;
-    height: 12px;
-    background-color: #404040;
-}
-.carousel-indicators li {
-    border-radius: 12px;
-    width: 12px;
-    height: 12px;
-    background-color: #404040;
-}
-.carousel-indicators .active {
-    background-color: white;
-    max-width: 12px;
-    margin: 0 3px;
-    height: 12px;
-}
-
-
-
-.btn {
-  margin-top: auto;
-}
-</style>
+     }
+     .card {
+     font-size: 1em;
+     overflow: hidden;
+     padding: 5;
+     border: none;
+     border-radius: .28571429rem;
+     box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+     margin-top:20px;
+     }
+     .carousel-indicators li {
+     border-radius: 12px;
+     width: 12px;
+     height: 12px;
+     background-color: #404040;
+     }
+     .carousel-indicators li {
+     border-radius: 12px;
+     width: 12px;
+     height: 12px;
+     background-color: #404040;
+     }
+     .carousel-indicators .active {
+     background-color: white;
+     max-width: 12px;
+     margin: 0 3px;
+     height: 12px;
+     }
+     .btn {
+     margin-top: auto;
+     }
+ </style>
 
  <body class="host_version">  
      <?php
@@ -203,11 +199,7 @@ body {
 		 </div>
 	 </div>
 	 <!-- Slider End -->
-
-
-
-
-     
+  
     
 	 <div class="section cl">
 	     <div class="container">
@@ -269,10 +261,7 @@ body {
 		 </div><!-- end container -->
 	 </div><!-- end section -->
 
-<<<<<<< HEAD
 
-=======
->>>>>>> a2e24948b56d1a324159f0885799ae1be1225371
  <!-- HOLIDAY SCHEDULE -->
  <div id="plan" class="section lb">
          <div class="container">
@@ -336,13 +325,6 @@ body {
  <br>
 <br>
  
-
-
-
-<<<<<<< HEAD
-=======
-
->>>>>>> a2e24948b56d1a324159f0885799ae1be1225371
      <br>
      <div class="container mt-2">
 <!--   <div class="card card-block mb-2">
