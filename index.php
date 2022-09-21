@@ -370,110 +370,104 @@
                                  <p>Every school has a canteen and it makes it easy for students to get food from these canteens.</p>
                                  <p>Our school also has a canteen. The canteen is very big and could accommodate many students at a time. 
                                   We have a coupon system, where the students who would like to have food from the canteen, would require 
-                            buying coupon for the desired item from the counter during the first short recess of the day in school. </p>
- 
-                         <a href="#" class="hover-btn-new orange"><span>Learn More</span></a>
-                     </div><!-- end messagebox -->
-                 </div><!-- end col -->
+                                 buying coupon for the desired item from the counter during the first short recess of the day in school. </p>
+                                 <a href="#" class="hover-btn-new orange"><span>Learn More</span></a>
+                             </div><!-- end messagebox -->
+                         </div><!-- end col -->
 				
-			     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
-                     <div class="post-media wow fadeIn">
-                         <img src="https://curlytales.com/wp-content/uploads/2020/07/school-2.jpg" alt="" class="img-fluid img-rounded">
-                         <!-- <img src="images/about_02.jpg" alt="" class="img-fluid img-rounded"> -->
-                     </div><!-- end media -->
-                 </div><!-- end col -->
-			 </div>
-             <div class="row align-items-center">
-			     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
-                     <div class="post-media wow fadeIn">
-                     <img src="https://farm66.static.flickr.com/65535/50999099810_cc50c81bfc_c.jpg" alt="" class="img-fluid img-rounded">
-                         <!-- <img src="images/about_03.jpg" alt="" class="img-fluid img-rounded"> -->
-                     </div><!-- end media -->
-                 </div><!-- end col -->
+			             <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                             <div class="post-media wow fadeIn">
+                                 <img src="https://curlytales.com/wp-content/uploads/2020/07/school-2.jpg" alt="" class="img-fluid img-rounded">
+                                 <!-- <img src="images/about_02.jpg" alt="" class="img-fluid img-rounded"> -->
+                             </div><!-- end media -->
+                         </div><!-- end col -->
+			         </div>
+                     <div class="row align-items-center">
+			             <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                             <div class="post-media wow fadeIn">
+                                 <img src="https://farm66.static.flickr.com/65535/50999099810_cc50c81bfc_c.jpg" alt="" class="img-fluid img-rounded">
+                                 <!-- <img src="images/about_03.jpg" alt="" class="img-fluid img-rounded"> -->
+                             </div><!-- end media -->
+                         </div><!-- end col -->
 				
-				 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
-                     <div class="message-box">
-                         <h2>Students Playground</h2>
-                         <p>Today's schools are not only tasked with preparing children for their future careers, but also teaching essential life skills, habits and attitudes that will help them successfully navigate adulthood. To do this and provide the best learning experience for students requires both indoor instruction and outdoor physical activity.</p>
-                         <p> While kids explore school playgrounds they are building important life skills that will eventually help children become effective thinkers, leaders and collaborators. </p>
+				         <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                             <div class="message-box">
+                                 <h2>Students Playground</h2>
+                                 <p>Today's schools are not only tasked with preparing children for their future careers, but also teaching essential life skills, habits and attitudes that will help them successfully navigate adulthood. To do this and provide the best learning experience for students requires both indoor instruction and outdoor physical activity.</p>
+                                 <p> While kids explore school playgrounds they are building important life skills that will eventually help children become effective thinkers, leaders and collaborators. </p>
+                                 <a href="#" class="hover-btn-new orange"><span>Learn More</span></a>
+                             </div><!-- end messagebox -->
+                         </div><!-- end col -->
+                     </div><!-- end row -->
+                 </div>
+             </div><!-- end container -->
+         </div><!-- end section -->
 
-                         <a href="#" class="hover-btn-new orange"><span>Learn More</span></a>
-                     </div><!-- end messagebox -->
-                 </div><!-- end col -->
+         <!-- HOLIDAY SCHEDULE -->
+         <div id="plan" class="section lb" style="background-image:url('https://chytomo.com/wp-content/uploads/2022/03/education-day-assortment-with-copy-space.jpg')" width="100px">
+             <div class="container">
+                 <div class="section-title text-center ">
+                     <h3 style="color:white">Holidays Schedule</h3>
+                     <p style="color:white">Lorem ipsum dolor sit aet, consectetur adipisicing lit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                 </div><!-- end title -->
 
-             </div><!-- end row -->
-         </div><!-- end container -->
-     </div><!-- end section -->
+                 <hr class="invis">
 
-
-     
-
-     <!-- HOLIDAY SCHEDULE -->
-     <div id="plan" class="section lb" style="background-image:url('https://chytomo.com/wp-content/uploads/2022/03/education-day-assortment-with-copy-space.jpg')" width="100px">
-         <div class="container">
-             <div class="section-title text-center ">
-                 <h3 style="color:white">Holidays Schedule</h3>
-                 <p style="color:white">Lorem ipsum dolor sit aet, consectetur adipisicing lit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-             </div><!-- end title -->
-
-
-
-             <hr class="invis">
-
-             <div class="row">
-                 <div class="col-md-12">
-                     <div class="tab-content">
-                         <div class="tab-pane active fade show" id="tab1">
-                             <div class="row text-center">
-                                 <div class="col-md-12">
-                                     <div class="pricing-table pricing-table-highlighted">
-                                         <div class="pricing-table-header grd1">
-                                             <h2>Holidays Schedule</h2>
+                 <div class="row">
+                     <div class="col-md-12">
+                         <div class="tab-content">
+                             <div class="tab-pane active fade show" id="tab1">
+                                 <div class="row text-center">
+                                     <div class="col-md-12">
+                                         <div class="pricing-table pricing-table-highlighted">
+                                             <div class="pricing-table-header grd1">
+                                                 <h2>Holidays Schedule</h2>
+                                             </div>
+                                             <div class="pricing-table-space"></div>
+                                                 <table class="table table-hover">
+                                                     <thead>
+                                                         <tr>
+                                                             <th scope="col">Date</th>
+                                                             <th scope="col">Day</th>
+                                                             <th scope="col">Holiday Name</th>
+                                                             <th scope="col">Detail</th>        
+                                                         </tr>
+                                                     </thead>
+                                                     <tbody>
+                                                         <?php
+                                                             $query = "SELECT * FROM `holiday`";
+                                                             $result = mysqli_query($conn,$query);
+                                                             if(mysqli_num_rows($result))
+                                                               {
+                                                             while($row = mysqli_fetch_array($result)){                                              
+                                                            ?>     
+                                                         <tr>
+                                                             <td><?php echo $row[1];?></td>
+                                                             <td><?php echo $row[2];?></td>
+                                                             <td><?php echo $row[3];?></td>
+                                                             <td><?php echo $row[4];?></td>
+                                                         </tr>
+                                                         <?php
+                                                             }
+                                                             }
+                                                            ?>
+                                                     </tbody>
+                                                 </table>
+                                             </div>
                                          </div>
-                                         <div class="pricing-table-space"></div>
-                                         <table class="table table-hover">
-                                             <thead>
-                                                 <tr>
-                                                     <th scope="col">Date</th>
-                                                     <th scope="col">Day</th>
-                                                     <th scope="col">Holiday Name</th>
-                                                     <th scope="col">Detail</th>        
-                                                 </tr>
-                                             </thead>
-                                             <tbody>
-                                                 <?php
-                                                     $query = "SELECT * FROM `holiday`";
-                                                     $result = mysqli_query($conn,$query);
-                                                     if(mysqli_num_rows($result))
-                                                       {
-                                                         while($row = mysqli_fetch_array($result)){                                              
-                                                    ?>     
-                                                 <tr>
-                                                     <td><?php echo $row[1];?></td>
-                                                     <td><?php echo $row[2];?></td>
-                                                     <td><?php echo $row[3];?></td>
-                                                     <td><?php echo $row[4];?></td>
-                                                 </tr>
-                                                 <?php
-                                                     }
-                                                     }
-                                                    ?>
-                                             </tbody>
-                                         </table>
                                      </div>
-                                 </div>
-                             </div><!-- end row -->
-                         </div><!-- end pane -->
-                     </div><!-- end content -->
-                 </div><!-- end col -->
-             </div><!-- end row -->
-         </div><!-- end container -->
-     </div><!-- end section -->
+                                 </div><!-- end row -->
+                             </div><!-- end pane -->
+                         </div><!-- end content -->
+                     </div><!-- end col -->
+                 </div><!-- end row -->
+             </div><!-- end container -->
+         </div><!-- end section -->
 
-     <div class="parallax section dbcolor">
-         <div class="container">
-         </div><!-- end container -->
-     </div><!-- end section -->
+         <div class="parallax section dbcolor">
+             <div class="container"></div><!-- end container -->
+         </div><!-- end section -->
+     </div>
 
      <?php
      include_once("footer.php");
