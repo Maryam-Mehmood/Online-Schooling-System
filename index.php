@@ -320,68 +320,7 @@
   </div><!-- end title -->
 </div>
 
-
- 
- <br>
-<br>
- 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> 7051e8d4f071d026aa816ea7b78782a23e2b0738
-=======
->>>>>>> 7051e8d4f071d026aa816ea7b78782a23e2b0738
-=======
->>>>>>> 7051e8d4f071d026aa816ea7b78782a23e2b0738
-     <br>
-     <div class="container mt-2">
-<!--   <div class="card card-block mb-2">
-    <h4 class="card-title">Card 1</h4>
-    <p class="card-text">Welcom to bootstrap card styles</p>
-    <a href="#" class="btn btn-primary">Submit</a>
-  </div>   -->
-  <div class="row">
-    <div class="col-md-3 col-sm-6">
-      <div class="card card-block">
-      <h4 class="card-title text-right"><i class=""></i></h4>
-    <img src="https://static.pexels.com/photos/7096/people-woman-coffee-meeting.jpg" alt="Photo of sunset">
-        <h5 class="card-title mt-3 mb-3 text-center">Sierra Web Development</h5>
-        <p class="card-text">This is a company that builds websites, web apps and e-commerce solutions.</p> 
-  </div>
-    </div>
-    <div class="col-md-3 col-sm-6">
-      <div class="card card-block">
-      <h4 class="card-title text-right"><i class=""></i></h4>
-    <img src="https://static.pexels.com/photos/7357/startup-photos.jpg" alt="Photo of sunset">
-        <h5 class="card-title  mt-3 mb-3 text-center">ProVyuh</h5>
-        <p class="card-text">This is a company that builds websites, web .</p> 
-  </div>
-    </div>
-    <div class="col-md-3 col-sm-6">
-      <div class="card card-block">
-      <h4 class="card-title text-right"><i class=""></i></h4>
-    <img src="https://static.pexels.com/photos/262550/pexels-photo-262550.jpeg" alt="Photo of sunset">
-        <h5 class="card-title  mt-3 mb-3 text-center">ProVyuh</h5>
-        <p class="card-text">This is a company that builds websites, web apps and e-commerce solutions.</p> 
-  </div>
-    </div>
-    <div class="col-md-3 col-sm-6">
-      <div class="card card-block">
-      <h4 class="card-title text-right"><i class=""></i></h4>
-    <img src="https://static.pexels.com/photos/326424/pexels-photo-326424.jpeg" alt="Photo of sunset">
-        <h5 class="card-title  mt-3 mb-3 text-center">ProVyuh</h5>
-        <p class="card-text">This is a company that builds websites, web apps and e-commerce solutions.</p> 
-  </div>
-    </div>    
-  </div>
-  
-</div>
-
-<div id="overviews" class="section lb">
+ <div id="overviews" class="section lb">
          <div class="container">
              <div class="section-title row text-center">
                  <div class="col-md-8 offset-md-2">
@@ -398,7 +337,7 @@
                              to read books with peace. A library is a place that feeds us knowledge with the help of books.</p>
                          <p> My school library is huge; it has a total of two rooms, one room has all the shelves or cabinets to store books, and the second room has the facility to sit and read books.
 
-There is a vast collection of books. There are around 15,000 books in my school library. In my school library, different kinds of books are present there, and all of them are arranged in a very well manner.</p>
+ There is a vast collection of books. There are around 15,000 books in my school library. In my school library, different kinds of books are present there, and all of them are arranged in a very well manner.</p>
  
                          <a href="#" class="hover-btn-new orange"><span>Learn More</span></a>
                      </div><!-- end messagebox -->
@@ -538,82 +477,26 @@ There is a vast collection of books. There are around 15,000 books in my school 
          </div><!-- end container -->
      </div><!-- end section -->
 
+      
 
-     
-
-     <!-- Activities Start -->
      <div class="parallax section dbcolor">
          <div class="container">
-             <!-- Facilities Start -->
-             <div class="container-fluid pt-5">
-                 <div class="container pb-3">
-                     <div class="row">
-                         <div class="col-lg-4 col-md-6 pb-1">
-                             <div class="d-flex bg-light shadow-sm border-top rounded mb-4" style="padding: 30px;">
-                                 <i class="flaticon-050-fence h1 font-weight-normal text-primary mb-3"></i>
-                                 <div class="pl-4">
-                                     <h4><img src="images/sport.png" alt="" width="50px"> Sports</h4>
-                                     <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-                                 </div>
-                             </div>
-                         </div>
-                         <div class="col-lg-4 col-md-6 pb-1">
-                             <div class="d-flex bg-light shadow-sm border-top rounded mb-4" style="padding: 30px;">
-                                 <i class="flaticon-022-drum h1 font-weight-normal text-primary mb-3"></i>
-                                 <div class="pl-4">
-                                     <h4><img src="images/library.png" alt="" width="50px"> Library</h4>
-                                     <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
-                                 </div>
-                             </div>
-                         </div>
-                         <div class="col-lg-4 col-md-6 pb-1">
-                             <div class="d-flex bg-light shadow-sm border-top rounded mb-4" style="padding: 30px;">
-                                 <i class="flaticon-030-crayons h1 font-weight-normal text-primary mb-3"></i>
-                                 <div class="pl-4">
-                                     <h4><img src="images/arts.png" alt="" width="50px"> Arts and Crafts</h4>
-                                     <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
-                                 </div>
-                             </div>
-                         </div>
-                         <!-- <div class="col-lg-4 col-md-6 pb-1">
-                         <div class="d-flex bg-light shadow-sm border-top rounded mb-4" style="padding: 30px;">
-                         <i class="flaticon-017-toy-car h1 font-weight-normal text-primary mb-3"></i>
-                         <div class="pl-4">
-                         <h4>Safe Transportation</h4>
-                         <p class="m-0">Kasd labore kasd et dolor est rebum dolor ut, clita dolor vero lorem amet elitr vero...</p>
-                         </div>
-                         </div>
-                         </div>
-                         <div class="col-lg-4 col-md-6 pb-1">
-                         <div class="d-flex bg-light shadow-sm border-top rounded mb-4" style="padding: 30px;">
-                         <i class="flaticon-025-sandwich h1 font-weight-normal text-primary mb-3"></i>
-                         <div class="pl-4">
-                         <h4>Healthy food</h4>
-                         <p class="m-0">Kasd labore kasd et dolor est rebum dolor ut, clita dolor vero lorem amet elitr vero...</p>
-                         </div>
-                         </div>
-                         </div>
-                         <div class="col-lg-4 col-md-6 pb-1">
-                         <div class="d-flex bg-light shadow-sm border-top rounded mb-4" style="padding: 30px;">
-                         <i class="flaticon-047-backpack h1 font-weight-normal text-primary mb-3"></i>
-                         <div class="pl-4">
-                         <h4>Educational Tour</h4>
-                         <p class="m-0">Kasd labore kasd et dolor est rebum dolor ut, clita dolor vero lorem amet elitr vero...</p>
-                         </div>
-                         </div>
-                         </div> -->
-                     </div>
-                 </div>
-             </div>
-             <!-- Facilities Start -->
          </div><!-- end container -->
      </div><!-- end section -->
 
+    
+     
+
+    
      <?php
      include_once("footer.php");
      ?>
 
      <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
 
+     <!-- ALL JS FILES -->
+     <script src="js/all.js"></script>
+     <!-- ALL PLUGINS -->
+     <script src="js/custom.js"></script>
  </body>
 </html>

@@ -60,28 +60,8 @@
 	 <div id="teachers" class="section wb">
          <div class="container">
              <div class="row">
-                 <div class="col-md-4">
+                 <div class="col-md-3">
 	          		 <div class="our-team">
-					     <div class="team-img">
-						     <img src="images/t-1.jpg">
-							 <div class="social">
-							     <ul>
-								     <li><a href="#" class="fa fa-facebook"></a></li>
-									 <li><a href="#" class="fa fa-twitter"></a></li>
-									 <li><a href="#" class="fa fa-linkedin"></a></li>
-									 <li><a href="#" class="fa fa-skype"></a></li>
-								 </ul>
-							 </div>
-						 </div>
-						 <div class="team-content">
-						     <h3 class="title">Williamson</h3>
-							 <span class="post">Web Developer</span>
-						 </div>
-					 </div>
-				 </div>
-
-				 <div class="col-md-4">
-				     <div class="our-team">
 					     <div class="team-img">
 						     <img src="images/team-2.jpg">
 							 <div class="social">
@@ -92,18 +72,38 @@
 									 <li><a href="#" class="fa fa-skype"></a></li>
 								 </ul>
 							 </div>
-					     </div>
+						 </div>
 						 <div class="team-content">
-						     <h3 class="title">Kristiana</h3>
-							 <span class="post">Web Designer</span>
+						     <h3 class="title">Miss Aliya</h3>
+							 <span class="post">English</span>
 						 </div>
 					 </div>
 				 </div>
 
-				 <div class="col-md-4">
+				 <div class="col-md-3">
 				     <div class="our-team">
 					     <div class="team-img">
-						     <img src="images/team-03.png">
+						     <img src="images/team-3.jpg">
+							 <div class="social">
+							     <ul>
+								     <li><a href="#" class="fa fa-facebook"></a></li>
+									 <li><a href="#" class="fa fa-twitter"></a></li>
+									 <li><a href="#" class="fa fa-linkedin"></a></li>
+									 <li><a href="#" class="fa fa-skype"></a></li>
+								 </ul>
+							 </div>
+					     </div>
+						 <div class="team-content">
+						     <h3 class="title">Sir Gafoor</h3>
+							 <span class="post">Math</span>
+						 </div>
+					 </div>
+				 </div>
+
+				 <div class="col-md-3">
+				     <div class="our-team">
+					     <div class="team-img">
+						     <img src="images/team-1.jpg">
 							 <div class="social">
 							     <ul>
 								     <li><a href="#" class="fa fa-facebook"></a></li>
@@ -114,14 +114,120 @@
 							 </div>
 						 </div>
 						 <div class="team-content">
-						     <h3 class="title">Steve Thomas</h3>
-							 <span class="post">Web Developer</span>
+						     <h3 class="title">Miss Arfa</h3>
+							 <span class="post">Urdu</span>
+						 </div>
+					 </div>
+				 </div>
+
+				 <div class="col-md-3">
+	          		 <div class="our-team">
+					     <div class="team-img">
+						     <img src="images/team-4.jpg">
+							 <div class="social">
+							     <ul>
+								     <li><a href="#" class="fa fa-facebook"></a></li>
+									 <li><a href="#" class="fa fa-twitter"></a></li>
+									 <li><a href="#" class="fa fa-linkedin"></a></li>
+									 <li><a href="#" class="fa fa-skype"></a></li>
+								 </ul>
+							 </div>
+						 </div>
+						 <div class="team-content">
+						     <h3 class="title">Miss Sana</h3>
+							 <span class="post">Science</span>
+						 </div>
+					 </div>
+				 </div>
+             </div><!-- end row -->
+			 <div class="row">
+                 <div class="col-md-3">
+	          		 <div class="our-team">
+					     <div class="team-img">
+						     <img src="images/team-2.jpg">
+							 <div class="social">
+							     <ul>
+								     <li><a href="#" class="fa fa-facebook"></a></li>
+									 <li><a href="#" class="fa fa-twitter"></a></li>
+									 <li><a href="#" class="fa fa-linkedin"></a></li>
+									 <li><a href="#" class="fa fa-skype"></a></li>
+								 </ul>
+							 </div>
+						 </div>
+						 <div class="team-content">
+						     <h3 class="title">Miss Hifza</h3>
+							 <span class="post">S.st</span>
+						 </div>
+					 </div>
+				 </div>
+
+				 <div class="col-md-3">
+				     <div class="our-team">
+					     <div class="team-img">
+						     <img src="images/team-3.jpg">
+							 <div class="social">
+							     <ul>
+								     <li><a href="#" class="fa fa-facebook"></a></li>
+									 <li><a href="#" class="fa fa-twitter"></a></li>
+									 <li><a href="#" class="fa fa-linkedin"></a></li>
+									 <li><a href="#" class="fa fa-skype"></a></li>
+								 </ul>
+							 </div>
+					     </div>
+						 <div class="team-content">
+						     <h3 class="title">Sir Hamid</h3>
+							 <span class="post">Islamiat</span>
+						 </div>
+					 </div>
+				 </div>
+
+				 <div class="col-md-3">
+				     <div class="our-team">
+					     <div class="team-img">
+						     <img src="images/team-1.jpg">
+							 <div class="social">
+							     <ul>
+								     <li><a href="#" class="fa fa-facebook"></a></li>
+									 <li><a href="#" class="fa fa-twitter"></a></li>
+									 <li><a href="#" class="fa fa-linkedin"></a></li>
+									 <li><a href="#" class="fa fa-skype"></a></li>
+								 </ul>
+							 </div>
+						 </div>
+						 <div class="team-content">
+						     <h3 class="title">Miss Amna</h3>
+							 <span class="post">Chemistry</span>
+						 </div>
+					 </div>
+				 </div>
+
+				 <div class="col-md-3">
+	          		 <div class="our-team">
+					     <div class="team-img">
+						     <img src="images/team-1.jpg">
+							 <div class="social">
+							     <ul>
+								     <li><a href="#" class="fa fa-facebook"></a></li>
+									 <li><a href="#" class="fa fa-twitter"></a></li>
+									 <li><a href="#" class="fa fa-linkedin"></a></li>
+									 <li><a href="#" class="fa fa-skype"></a></li>
+								 </ul>
+							 </div>
+						 </div>
+						 <div class="team-content">
+						     <h3 class="title">Miss Sara</h3>
+							 <span class="post">Physics</span>
 						 </div>
 					 </div>
 				 </div>
              </div><!-- end row -->
          </div><!-- end container -->
      </div><!-- end section -->	
+
+	 <div class="parallax section dbcolor">
+         <div class="container">
+         </div><!-- end container -->
+     </div><!-- end section -->
 
      <?php
          include_once("footer.php");

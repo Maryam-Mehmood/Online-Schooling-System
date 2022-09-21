@@ -26,7 +26,6 @@
 						 <li class="nav-item"><a class="nav-link" href="about.php">About Us</a></li>
 						 <li class="nav-item"><a class="nav-link" href="class.php">Classes</a></li>
 						 <li class="nav-item"><a class="nav-link" href="teachers.php">Teachers</a></li>
-                         <li class="nav-item"><a class="nav-link" href="gallery.php">Gallery</a></li>
 						 <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
                          <?php
                              error_reporting(0);
