@@ -477,17 +477,11 @@
          </div><!-- end container -->
      </div><!-- end section -->
 
-      
-
      <div class="parallax section dbcolor">
          <div class="container">
          </div><!-- end container -->
      </div><!-- end section -->
-
-    
-     
-
-    
+         
      <?php
      include_once("footer.php");
      ?>
