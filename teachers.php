@@ -48,7 +48,7 @@
  <body class="host_version"> 
 
      <?php
-     include_once("nav.php");
+         include_once("nav.php");
      ?>
 	 	
 	 <div class="all-title-box">
