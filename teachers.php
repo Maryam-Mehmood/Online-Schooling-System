@@ -60,6 +60,7 @@
 	 <div id="teachers" class="section wb">
          <div class="container">
              <div class="row">
+				 <!-- T1 -->
                  <div class="col-md-3">
 	          		 <div class="our-team">
 					     <div class="team-img">
@@ -79,7 +80,7 @@
 						 </div>
 					 </div>
 				 </div>
-
+                 <!-- T2 -->
 				 <div class="col-md-3">
 				     <div class="our-team">
 					     <div class="team-img">
@@ -99,7 +100,7 @@
 						 </div>
 					 </div>
 				 </div>
-
+                 <!-- T3 -->
 				 <div class="col-md-3">
 				     <div class="our-team">
 					     <div class="team-img">
@@ -119,7 +120,7 @@
 						 </div>
 					 </div>
 				 </div>
-
+                 <!-- T4 -->
 				 <div class="col-md-3">
 	          		 <div class="our-team">
 					     <div class="team-img">
@@ -141,6 +142,7 @@
 				 </div>
              </div><!-- end row -->
 			 <div class="row">
+				 <!-- T5 -->
                  <div class="col-md-3">
 	          		 <div class="our-team">
 					     <div class="team-img">
@@ -160,7 +162,7 @@
 						 </div>
 					 </div>
 				 </div>
-
+                 <!-- T6 -->
 				 <div class="col-md-3">
 				     <div class="our-team">
 					     <div class="team-img">
@@ -180,7 +182,7 @@
 						 </div>
 					 </div>
 				 </div>
-
+                 <!-- T7 -->
 				 <div class="col-md-3">
 				     <div class="our-team">
 					     <div class="team-img">
@@ -200,7 +202,7 @@
 						 </div>
 					 </div>
 				 </div>
-
+                 <!-- T8 -->
 				 <div class="col-md-3">
 	          		 <div class="our-team">
 					     <div class="team-img">

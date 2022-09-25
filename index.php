@@ -52,14 +52,12 @@
 
  <style>
      body {
-      background-color:  #eee;
-        }
-     .title {
- 
-     margin-bottom: 50px;
-     text-transform: uppercase;
+         background-color:  #eee;
      }
-
+     .title {
+         margin-bottom: 50px;
+         text-transform: uppercase;
+     }
      .card-block {
      font-size: 1em;
      position: relative;
@@ -103,8 +101,8 @@
  </style>
 
  <body class="host_version">  
-     <?php
-     include_once("nav.php");
+     <?php 
+         include_once("nav.php");
      ?>
 	 
      <!-- Slider Start -->
@@ -123,7 +121,7 @@
                      if(mysqli_num_rows($result))
                        {
                          while($row = mysqli_fetch_array($result)){                                              
-                    ?> 
+                 ?> 
 			     <div id="home" class="first-section" style="background-image:url('https://e-file.huawei.com/-/media/EBG/Images/SolutionV2/industry/education/solution-01-v3.jpg');">
 				     <div class="dtab">
 					     <div class="container">
@@ -190,7 +188,6 @@
 			     <span class="fa fa-angle-left" aria-hidden="true"></span>
 				 <span class="sr-only">Previous</span>
 			 </a>
-
 			 <!-- Right Control -->
 			 <a class="new-effect carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
 			     <span class="fa fa-angle-right" aria-hidden="true"></span>
@@ -200,8 +197,7 @@
 	 </div>
 	 <!-- Slider End -->
   
-    
-	 <div class="section cl">
+     <div class="section cl">
 	     <div class="container">
 		     <div class="row text-left stat-wrap">
 			     <div class="col-md-4 col-sm-4 col-xs-12">
@@ -262,7 +258,7 @@
 	 </div><!-- end section -->
 
 
-     <!-- HOLIDAY SCHEDULE -->
+     <!-- SCHOOL PRINCIPLE -->
      <div id="plan" class="section lb">
          <div class="container">
              <div class="section-title text-center">

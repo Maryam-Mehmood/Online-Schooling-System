@@ -1,0 +1,35 @@
+* School will be exsist but system will be online
+Database: Online_Schooling_System
+Tables:
+1)Teachers              ==> (1)Id (2)Name (3)Email (4)Phone (5)Qualification (6)Subjects
+2)Student Info(complete)==> (1)Id (2)First_Name (3)Last_Name (4)Date_of_Birth (5)Mother_Name (6)Email (7)Phone (8)Address (9)Nationality (10)Religion (11)Class (12)Date
+3)Holiday               ==> (1)Id (2)Holiday (3)Day (4)Date
+4)Contact               ==> (1)Id (2)Full_Name (3)Email (4)Pass (5)Phone (6)Message
+5)School Activities     ==> (1)Id (2)Sports (3)Library
+6)Online fees voucher   ==> (1)Id (2)Sudent_Name (3)Student_No (4)Reciept_No (5)Current_Month (6)Total_Amount (7)Amount(in_words)
+7)Slider                ==> (1)Id (2)Image-Url (3)Title (4)Description
+
+Optional:
+2)Online Books (done)
+3)transport faculity in about page (done)
+4)map in contact form (done)
+4)timetable (done)
+
+Done:FrontEnd
+1)Admission Form
+2)Contact Form
+3)Holidays Scheldue (index page)
+4)feedback in conact form 
+5)Online Books (about page)
+6)Transport Faculity (index page)
+7)Map (contact page)
+Timetable (index page)
+
+Things to complete:-
+1) contact form m 1person ko bar bar email na dalni pare
+2)admission form submit kerne k bad alert k msg aye(your form has been submit)
+3)student profile page  add kerna h
+4)attendece also
+5)fake filler se form k input add kerna
+6)smart school management system k visit kerna h
+

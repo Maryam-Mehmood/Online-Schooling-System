@@ -73,10 +73,10 @@
                                      //    error_reporting(0);
                                      if(isset($_GET["invalid"]))
                                        {
-                                         ?>
-                                         <a href="" class="text-danger">Invalid Email or password</a>                                    
-                                         <?php
-                                        }
+                                    ?>
+                                 <a href="" class="text-danger">Invalid Email or password</a>                                    
+                                 <?php
+                                      }
                                     ?>                   
                              </div>
                              <button type="submit" name="submit" class="btn btn-primary py-3 w-100 mb-4">Sign In</button>

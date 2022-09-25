@@ -47,7 +47,7 @@
  <body class="host_version"> 
 
      <?php
-     include_once("nav.php");
+         include_once("nav.php");
      ?>
     
 	
@@ -57,7 +57,7 @@
 		 </div>
 	 </div>
 	
-     <div id="overviews" class="section lb">
+     <div id="overviews" class="section lb">`                                                                                                                                                                                                                           
          <div class="container">
              <div class="section-title row text-center">
                  <div class="col-md-8 offset-md-2">
