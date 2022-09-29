@@ -84,10 +84,11 @@
                                  </div>
                                  <div class="col-lg-12 col-md-12 col-sm-12">
                                      <h3 class="text-white">Message</h3>
-                                     <textarea class="form-control" name="msg" rows="6" placeholder="Your Complaint/Message/Feedback.." required></textarea>
+                                     <textarea class="form-control" name="msg" rows="6" placeholder="Your Complaint/Message/Feedback.." required></textarea>    
                                  </div>
                                  <div class="text-center pd">
-                                     <button type="submit" value="SEND" class="btn btn-light btn-radius btn-brd grd1 btn-block" name="submit">Send Request</button>
+                                     <input type="submit" value="Submit this Form" class="btn btn-light btn-radius btn-brd grd1 btn-block" name="submit">
+                                     <!-- <button type="submit" value="SEND" class="btn btn-light btn-radius btn-brd grd1 btn-block" name="submit">Send Request</button> -->
                                  </div>
                              </div>
                          </form>
