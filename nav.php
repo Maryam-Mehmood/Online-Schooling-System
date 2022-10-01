@@ -39,7 +39,7 @@
                      else if($_SESSION["role"] == 2)
 					   {
                     ?>
-                    
+                 <h1>Welcome <?php $_SESSION["firstname"]?></h1>   
                  <!-- <li class="nav-item"><a class="nav-link" href="">Profile</a></li> -->
 				 <li class="nav-item"><a class="nav-link" href="signout.php">Sign Out</a></li>
         		 <?php

@@ -131,7 +131,6 @@
 
      <!-- ALL JS FILES -->
      <script src="js/all.js"></script>
-	 <script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyCKjLTXdq6Db3Xit_pW_GK4EXuPRtnod4o"></script>
 	 <!-- Mapsed JavaScript -->
 	 <script src="js/mapsed.js"></script>
 	 <script src="js/01-custom-places-example.js"></script>
