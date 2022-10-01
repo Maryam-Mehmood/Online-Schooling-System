@@ -8,6 +8,7 @@ Tables:
 5)School Activities     ==> (1)Id (2)Sports (3)Library
 6)Online fees voucher   ==> (1)Id (2)Sudent_Name (3)Student_No (4)Reciept_No (5)Current_Month (6)Total_Amount (7)Amount(in_words)
 7)Slider                ==> (1)Id (2)Image-Url (3)Title (4)Description
+8)User 			==> (1)Id (2)Fullname (3)Email (4)Pass (5)Role
 
 Optional:
 2)Online Books (done)

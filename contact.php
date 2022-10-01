@@ -55,7 +55,16 @@
 	 	 <div class="container text-center">
 	 	  	 <h1>Contact<span class="m_1">Lorem Ipsum dolroin gravida nibh vel velit.</span></h1>
 	     </div>
-     </div>   
+     </div>  
+     <?php
+         if(isset($_GET["sucess"])){
+         ?>
+         <div style="width:1150px; height: 100px; padding:20px; border: 5px solid gray; background-color:gray;  margin-left: 110px;">
+             <h1 class="text-center">Your Form has been submited successfully</h1>
+         </div>
+         <?php
+         }
+     ?> 
 	
      <div id="contact" class="section wb">
          <div class="container">
@@ -144,7 +153,7 @@
    $result = mysqli_query($conn,$query);
    ?>
    <Script>
-       window.location.assign("index.php");
+       window.location.assign("contact.php?sucess");
    </Script>
    <?php
   }

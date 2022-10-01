@@ -56,7 +56,15 @@
 	 	  	 <h1>Admission<span class="m_1">Lorem Ipsum dolroin gravida nibh vel velit.</span></h1>
 	     </div>
      </div>
-	
+     <?php
+         if(isset($_GET["sucess"])){
+         ?>
+         <div style="width:1150px; height: 100px; padding:20px; border: 5px solid gray; background-color:gray;  margin-left: 110px;">
+             <h1 class="text-center"><b><?php echo $_SESSION["username"]?></b> Your Admission Form has been submited successfully</h1>
+         </div>
+         <?php
+         }
+     ?> 
      <div id="contact" class="section wb">
          <div class="container">
              <div class="section-title text-center">
@@ -176,7 +184,7 @@
    $result = mysqli_query($conn,$query);
    ?>
    <Script>
-       window.location.assign("index.php");
+       window.location.assign("admission.php?sucess");
    </Script>
    <?php
   }
